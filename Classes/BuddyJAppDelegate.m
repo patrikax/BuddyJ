@@ -7,7 +7,7 @@
 //
 
 #import "BuddyJAppDelegate.h"
-
+#import "TrackHandler.h"
 
 @implementation BuddyJAppDelegate
 
@@ -16,8 +16,8 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-    
     // Add the tab bar controller's current view as a subview of the window
+    NSLog(@"%d", [[TrackHandler tracks] count]);
     [window addSubview:tabBarController.view];
 }
 
