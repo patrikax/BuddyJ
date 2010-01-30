@@ -15,7 +15,7 @@
 
 @synthesize window;
 @synthesize navigationController;
-
+@synthesize tabBarController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     // Add the tab bar controller's current view as a subview of the window
@@ -39,6 +39,11 @@
 }
 */
 
+-(void)showChooseTracks {
+    //tabBarController = [[ChooseTrackTabBarController alloc] initWithNibName:@"ChooseTrackTabBarController" bundle:nil];
+    //NSLog(@"ViewControllers: %d", [[tabBarController viewControllers] count]);
+    [navigationController pushViewController:tabBarController animated:YES];
+}
 
 - (void)dealloc {
     [navigationController release];

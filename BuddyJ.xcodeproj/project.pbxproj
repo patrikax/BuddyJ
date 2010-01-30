@@ -23,10 +23,12 @@
 		73CD908A11149EDD00F50F1B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CD908911149EDD00F50F1B /* AudioToolbox.framework */; };
 		73CD908C11149EE600F50F1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CD908B11149EE600F50F1B /* AVFoundation.framework */; };
 		73CD909811149FC200F50F1B /* Some Nerve.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73CD909711149FC200F50F1B /* Some Nerve.wav */; };
+		73CD90F11114A68D00F50F1B /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CD90F01114A68D00F50F1B /* DJViewController.xib */; };
 		FD62BE6011147CA6008CC754 /* TrackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62BE5F11147CA6008CC754 /* TrackHandler.m */; };
 		FD62BE811114809A008CC754 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62BE801114809A008CC754 /* AudioToolbox.framework */; };
 		FD62BEE711148B94008CC754 /* DJViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD62BEE511148B94008CC754 /* DJViewController.mm */; };
-		FD62BEE811148B94008CC754 /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD62BEE611148B94008CC754 /* DJViewController.xib */; };
+		FD62C04C11149F0E008CC754 /* TracksListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */; };
+		FD62C04D11149F0E008CC754 /* TracksListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,13 +60,16 @@
 		73CD908911149EDD00F50F1B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		73CD908B11149EE600F50F1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		73CD909711149FC200F50F1B /* Some Nerve.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Some Nerve.wav"; sourceTree = "<group>"; };
+		73CD90F01114A68D00F50F1B /* DJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BuddyJ-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BuddyJ-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FD62BE5E11147CA6008CC754 /* TrackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackHandler.h; sourceTree = "<group>"; };
 		FD62BE5F11147CA6008CC754 /* TrackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackHandler.m; sourceTree = "<group>"; };
 		FD62BE801114809A008CC754 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FD62BEE411148B94008CC754 /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
 		FD62BEE511148B94008CC754 /* DJViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DJViewController.mm; sourceTree = "<group>"; };
-		FD62BEE611148B94008CC754 /* DJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJViewController.xib; sourceTree = "<group>"; };
+		FD62C04911149F0E008CC754 /* TracksListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksListTableViewController.h; sourceTree = "<group>"; };
+		FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksListTableViewController.m; sourceTree = "<group>"; };
+		FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TracksListTableViewController.xib; path = Classes/TracksListTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,14 +92,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FD62C04911149F0E008CC754 /* TracksListTableViewController.h */,
+				73CD90F01114A68D00F50F1B /* DJViewController.xib */,
+				FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */,
+				FD62BE5E11147CA6008CC754 /* TrackHandler.h */,
+				FD62BE5F11147CA6008CC754 /* TrackHandler.m */,
 				1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */,
 				1D3623250D0F684500981E51 /* BuddyJAppDelegate.mm */,
 				FD62BEE411148B94008CC754 /* DJViewController.h */,
 				FD62BEE511148B94008CC754 /* DJViewController.mm */,
 				73CD906711149EA500F50F1B /* Audio */,
-				FD62BE5E11147CA6008CC754 /* TrackHandler.h */,
-				FD62BE5F11147CA6008CC754 /* TrackHandler.m */,
-				FD62BEE611148B94008CC754 /* DJViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -135,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				73CD909711149FC200F50F1B /* Some Nerve.wav */,
+				FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* BuddyJ-Info.plist */,
 			);
@@ -225,8 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				FD62BEE811148B94008CC754 /* DJViewController.xib in Resources */,
 				73CD909811149FC200F50F1B /* Some Nerve.wav in Resources */,
+				FD62C04D11149F0E008CC754 /* TracksListTableViewController.xib in Resources */,
+				73CD90F11114A68D00F50F1B /* DJViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +257,7 @@
 				73CD908311149EBA00F50F1B /* WavFile.cpp in Sources */,
 				73CD908411149EBA00F50F1B /* CAStreamBasicDescription.cpp in Sources */,
 				73CD908511149EBA00F50F1B /* CAXException.cpp in Sources */,
+				FD62C04C11149F0E008CC754 /* TracksListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

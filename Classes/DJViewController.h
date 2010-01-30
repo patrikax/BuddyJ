@@ -14,4 +14,7 @@
 }
 
 - (IBAction)playPauseBtnClicked:(id)sender;
+
+- (IBAction)showChooseTracks;
+
 @end
