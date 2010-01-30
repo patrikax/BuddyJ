@@ -43,6 +43,8 @@ class AudioEngine;
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changePitch) name:@"PitchChanged" object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];
+
     [super viewDidLoad];
 }
 
