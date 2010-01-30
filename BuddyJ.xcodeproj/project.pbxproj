@@ -17,6 +17,8 @@
 		FD62BE811114809A008CC754 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62BE801114809A008CC754 /* AudioToolbox.framework */; };
 		FD62BEE711148B94008CC754 /* DJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62BEE511148B94008CC754 /* DJViewController.m */; };
 		FD62BEE811148B94008CC754 /* DJViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD62BEE611148B94008CC754 /* DJViewController.xib */; };
+		FD62C04C11149F0E008CC754 /* TracksListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */; };
+		FD62C04D11149F0E008CC754 /* TracksListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,9 @@
 		FD62BEE411148B94008CC754 /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
 		FD62BEE511148B94008CC754 /* DJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
 		FD62BEE611148B94008CC754 /* DJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DJViewController.xib; path = Classes/DJViewController.xib; sourceTree = "<group>"; };
+		FD62C04911149F0E008CC754 /* TracksListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksListTableViewController.h; sourceTree = "<group>"; };
+		FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksListTableViewController.m; sourceTree = "<group>"; };
+		FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TracksListTableViewController.xib; path = Classes/TracksListTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FD62C04911149F0E008CC754 /* TracksListTableViewController.h */,
+				FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */,
 				FD62BE5E11147CA6008CC754 /* TrackHandler.h */,
 				FD62BE5F11147CA6008CC754 /* TrackHandler.m */,
 				1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */,
@@ -98,6 +105,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FD62C04B11149F0E008CC754 /* TracksListTableViewController.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* BuddyJ-Info.plist */,
 				FD62BEE611148B94008CC754 /* DJViewController.xib */,
@@ -160,6 +168,7 @@
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				FD62BEE811148B94008CC754 /* DJViewController.xib in Resources */,
+				FD62C04D11149F0E008CC754 /* TracksListTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				1D3623260D0F684500981E51 /* BuddyJAppDelegate.m in Sources */,
 				FD62BE6011147CA6008CC754 /* TrackHandler.m in Sources */,
 				FD62BEE711148B94008CC754 /* DJViewController.m in Sources */,
+				FD62C04C11149F0E008CC754 /* TracksListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

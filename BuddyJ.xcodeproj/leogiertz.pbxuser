@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {663, 460}}";
-			sepNavSelRange = "{603, 0}";
-			sepNavVisRange = "{0, 629}";
+			sepNavIntBoundsRect = "{{0, 0}, {937, 375}}";
+			sepNavSelRange = "{362, 0}";
+			sepNavVisRange = "{140, 321}";
 		};
 	};
 	1D3623250D0F684500981E51 /* BuddyJAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1041, 795}}";
 			sepNavSelRange = "{808, 0}";
-			sepNavVisRange = "{540, 884}";
+			sepNavVisRange = "{491, 933}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* BuddyJ */ = {
@@ -215,6 +215,27 @@
 			FD62C03711149DFB008CC754 /* PBXTextBookmark */ = FD62C03711149DFB008CC754 /* PBXTextBookmark */;
 			FD62C03811149DFB008CC754 /* PBXTextBookmark */ = FD62C03811149DFB008CC754 /* PBXTextBookmark */;
 			FD62C03911149DFB008CC754 /* PBXTextBookmark */ = FD62C03911149DFB008CC754 /* PBXTextBookmark */;
+			FD62C0501114A004008CC754 /* PBXTextBookmark */ = FD62C0501114A004008CC754 /* PBXTextBookmark */;
+			FD62C0521114A007008CC754 /* PBXTextBookmark */ = FD62C0521114A007008CC754 /* PBXTextBookmark */;
+			FD62C0531114A007008CC754 /* PBXTextBookmark */ = FD62C0531114A007008CC754 /* PBXTextBookmark */;
+			FD62C0541114A007008CC754 /* PlistBookmark */ = FD62C0541114A007008CC754 /* PlistBookmark */;
+			FD62C0551114A007008CC754 /* PBXTextBookmark */ = FD62C0551114A007008CC754 /* PBXTextBookmark */;
+			FD62C0561114A007008CC754 /* PBXTextBookmark */ = FD62C0561114A007008CC754 /* PBXTextBookmark */;
+			FD62C0571114A007008CC754 /* PBXTextBookmark */ = FD62C0571114A007008CC754 /* PBXTextBookmark */;
+			FD62C0581114A007008CC754 /* PBXTextBookmark */ = FD62C0581114A007008CC754 /* PBXTextBookmark */;
+			FD62C0591114A007008CC754 /* PBXTextBookmark */ = FD62C0591114A007008CC754 /* PBXTextBookmark */;
+			FD62C05D1114A025008CC754 /* PBXTextBookmark */ = FD62C05D1114A025008CC754 /* PBXTextBookmark */;
+			FD62C05F1114A027008CC754 /* PBXTextBookmark */ = FD62C05F1114A027008CC754 /* PBXTextBookmark */;
+			FD62C0601114A034008CC754 /* PBXTextBookmark */ = FD62C0601114A034008CC754 /* PBXTextBookmark */;
+			FD62C0611114A038008CC754 /* PBXTextBookmark */ = FD62C0611114A038008CC754 /* PBXTextBookmark */;
+			FD62C0631114A03A008CC754 /* PBXTextBookmark */ = FD62C0631114A03A008CC754 /* PBXTextBookmark */;
+			FD62C06A1114A070008CC754 /* PBXTextBookmark */ = FD62C06A1114A070008CC754 /* PBXTextBookmark */;
+			FD62C06E1114A088008CC754 /* PBXTextBookmark */ = FD62C06E1114A088008CC754 /* PBXTextBookmark */;
+			FD62C0721114A0B1008CC754 /* PBXTextBookmark */ = FD62C0721114A0B1008CC754 /* PBXTextBookmark */;
+			FD62C0761114A0C9008CC754 /* PBXTextBookmark */ = FD62C0761114A0C9008CC754 /* PBXTextBookmark */;
+			FD62C0871114A11B008CC754 /* PBXTextBookmark */ = FD62C0871114A11B008CC754 /* PBXTextBookmark */;
+			FD62C08B1114A17E008CC754 /* PBXTextBookmark */ = FD62C08B1114A17E008CC754 /* PBXTextBookmark */;
+			FD62C08C1114A17E008CC754 /* PBXTextBookmark */ = FD62C08C1114A17E008CC754 /* PBXTextBookmark */;
 		};
 		sourceControlManager = FD62BE4311147B89008CC754 /* Source Control */;
 		userBuildSettings = {
@@ -277,7 +298,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {719, 870}}";
 			sepNavSelRange = "{211, 67}";
-			sepNavVisRange = "{0, 1029}";
+			sepNavVisRange = "{0, 925}";
 		};
 	};
 	FD62BE6911147D2E008CC754 /* Track.h */ = {
@@ -616,9 +637,9 @@
 	};
 	FD62BEE511148B94008CC754 /* DJViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 975}}";
-			sepNavSelRange = "{1229, 0}";
-			sepNavVisRange = "{1362, 216}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 945}}";
+			sepNavSelRange = "{1359, 0}";
+			sepNavVisRange = "{775, 809}";
 		};
 	};
 	FD62BEED11148BFF008CC754 /* PBXTextBookmark */ = {
@@ -1411,5 +1432,230 @@
 		rType = 0;
 		vrLen = 629;
 		vrLoc = 0;
+	};
+	FD62C04911149F0E008CC754 /* TracksListTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {638, 460}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{0, 275}";
+		};
+	};
+	FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1335, 2460}}";
+			sepNavSelRange = "{2665, 0}";
+			sepNavVisRange = "{1795, 1230}";
+		};
+	};
+	FD62C0501114A004008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */;
+		name = "BuddyJAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 140;
+	};
+	FD62C0521114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */;
+		name = "BuddyJAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 603;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 0;
+	};
+	FD62C0531114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.m */;
+		name = "DJViewController.m: 46";
+		rLen = 0;
+		rLoc = 1359;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 775;
+	};
+	FD62C0541114A007008CC754 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* BuddyJ-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/leogiertz/Development/BuddyJ/BuddyJ-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FD62C0551114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BE5F11147CA6008CC754 /* TrackHandler.m */;
+		name = "TrackHandler.m: 14";
+		rLen = 67;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 925;
+		vrLoc = 0;
+	};
+	FD62C0561114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04911149F0E008CC754 /* TracksListTableViewController.h */;
+		name = "TracksListTableViewController.h: 13";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 275;
+		vrLoc = 0;
+	};
+	FD62C0571114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* BuddyJAppDelegate.m */;
+		name = "BuddyJAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 808;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 0;
+	};
+	FD62C0581114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 36";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 514;
+	};
+	FD62C0591114A007008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 2580;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 2085;
+	};
+	FD62C05D1114A025008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */;
+		name = "BuddyJAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 140;
+	};
+	FD62C05F1114A027008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 2580;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 2085;
+	};
+	FD62C0601114A034008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */;
+		name = "BuddyJAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 140;
+	};
+	FD62C0611114A038008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* BuddyJAppDelegate.h */;
+		name = "BuddyJAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 362;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 140;
+	};
+	FD62C0631114A03A008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 101";
+		rLen = 0;
+		rLoc = 2580;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 2085;
+	};
+	FD62C06A1114A070008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 102";
+		rLen = 0;
+		rLoc = 2831;
+		rType = 0;
+		vrLen = 1279;
+		vrLoc = 2085;
+	};
+	FD62C06E1114A088008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 36";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 544;
+	};
+	FD62C0721114A0B1008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 86";
+		rLen = 0;
+		rLoc = 2056;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1794;
+	};
+	FD62C0761114A0C9008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 86";
+		rLen = 0;
+		rLoc = 2056;
+		rType = 0;
+		vrLen = 717;
+		vrLoc = 1419;
+	};
+	FD62C0871114A11B008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62C04A11149F0E008CC754 /* TracksListTableViewController.m */;
+		name = "TracksListTableViewController.m: 102";
+		rLen = 0;
+		rLoc = 2665;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 1795;
+	};
+	FD62C08B1114A17E008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* BuddyJAppDelegate.m */;
+		name = "BuddyJAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 808;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 491;
+	};
+	FD62C08C1114A17E008CC754 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* BuddyJAppDelegate.m */;
+		name = "BuddyJAppDelegate.m: 33";
+		rLen = 0;
+		rLoc = 808;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 491;
 	};
 }
