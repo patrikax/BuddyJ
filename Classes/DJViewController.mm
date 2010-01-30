@@ -73,6 +73,10 @@ class AudioEngine;
 - (void)changeJogWheel {
 	NSLog(@"changeJogWheel called");
 	audioEngine->setDragging(true);
+	CGFloat diff = [[self jogWheelView] pointsMoved];
+	audioEngine->pitch = -diff;
+	audioEngine->diff = fabs(diff);
+	NSLog(@"diff: %f", fabs(diff));
 }
 /*
 // Override to allow orientations other than the default portrait orientation.

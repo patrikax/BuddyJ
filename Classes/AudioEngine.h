@@ -53,6 +53,7 @@ public:
 
 	void setDragging(Boolean);
 	Boolean dragging;
+	float diff;
 	
 	void setPitch(double);
 

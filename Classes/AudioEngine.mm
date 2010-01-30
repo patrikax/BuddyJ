@@ -39,32 +39,34 @@ OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const
 	
 	AudioFile *file = audioEngine->audioFile;
 	if(pos >= 0 && pos < file->fileLength) {
-		double pitch = audioEngine->pitch;
 		
+		double pitch = audioEngine->pitch;
 		for (UInt32 i = 0; i < inNumberFrames*2; i++) {
 			
 			int prevIndex = ((int)pos/2)*2;
 			int nextIndex = prevIndex + 2;
 			
-			output[i] = interpolate(file->buffer[prevIndex], file->buffer[nextIndex], pos);
 			
+			// INTERPOLATE TO SMOOTH PITCH
+			output[i] = interpolate(file->buffer[prevIndex], file->buffer[nextIndex], pos);
 			output[i+1] = interpolate(file->buffer[prevIndex+1], file->buffer[nextIndex+1], pos);
 			
+			
+			// INCREASE VOLUME
 			output[i] = output[i] << 8;
 			output[i+1] = output[i+1] << 8;
-			/*
-			if(audioFile->dragging) {
-				if(pitch > -.0003 && pitch < .0003) {
-					pitch = 0;
+			
+			if(audioEngine->dragging) {
+				if(pos > -.0003 && pos < .0003) {
+					pos = 0;
 				} else {
-					if(pitch < 0) pitch+= diff*.0001;
-					if(pitch > 0) pitch-= diff*.0001;
+					if(pos < 0) pos+= audioEngine->diff*.0000001;
+					if(pos > 0) pos-= audioEngine->diff*.0000001;
 				}
-			}*/
+			}
 			pos += pitch;
 			
 		}
-		audioEngine->previousPitch = pitch;
 	} else if(pos < 0) {
 		pos = 0;
 	} else if(pos > file->fileLength) {
