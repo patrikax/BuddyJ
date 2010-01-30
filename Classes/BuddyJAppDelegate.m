@@ -8,17 +8,20 @@
 
 #import "BuddyJAppDelegate.h"
 #import "TrackHandler.h"
+#import "DJViewController.h"
 
 @implementation BuddyJAppDelegate
 
 @synthesize window;
-@synthesize tabBarController;
+@synthesize navigationController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     // Add the tab bar controller's current view as a subview of the window
     NSLog(@"%d", [[TrackHandler tracks] count]);
-    [window addSubview:tabBarController.view];
+	[window addSubview:[navigationController view]];
+    [window makeKeyAndVisible];
+
 }
 
 
@@ -36,7 +39,7 @@
 
 
 - (void)dealloc {
-    [tabBarController release];
+    [navigationController release];
     [window release];
     [super dealloc];
 }
