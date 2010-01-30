@@ -10,7 +10,8 @@
 
 
 @interface DJViewController : UIViewController {
-
+	IBOutlet UIButton *playPauseBtn;
 }
 
+- (IBAction)playPauseBtnClicked:(id)sender;
 @end

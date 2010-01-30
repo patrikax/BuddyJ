@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class AudioEngine;
 
 @interface BuddyJAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+	AudioEngine *audioEngine;
     UIWindow *window;
     UINavigationController *navigationController;
 }
