@@ -19,37 +19,68 @@
 #include "WavFile.h"
 using namespace std;
 
-double p=0;
-
+double pos=0;
+double fPos = 0;
 UInt32 lastPos = 100;
 
-double fPos = 0;
-
+float interpolate(float value1, float value2, double pos) {
+	float frac = pos-floor(pos);
+	return frac*(value2-value1)+value1;
+}
 
 OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const AudioTimeStamp *inTimeStamp, UInt32 inBusNumber, UInt32 inNumberFrames,  AudioBufferList *ioData) {
 	
 	AudioEngine *audioEngine = (AudioEngine*)inRefCon;
 	
-
-	
 	AudioUnitSampleType *output = (AudioUnitSampleType *)ioData->mBuffers[0].mData;
-	
-	
 	
 	memset(audioEngine->outBuffer, 0, inNumberFrames*sizeof(SInt32)*2);
 	
-	for(UInt32 i=0;i<inNumberFrames*2;i+=2) {
-		//short t = audioEngine->audioFile->buffer[fPos];
-		output[i] = audioEngine->audioFile->buffer[(int)fPos];
-		output[i+1] = audioEngine->audioFile->buffer[(int)fPos+1];
-		fPos+=2;
+	
+	AudioFile *file = audioEngine->audioFile;
+	if(pos >= 0 && pos < file->fileLength) {
+		double pitch = audioEngine->pitch;
+		
+		for (UInt32 i = 0; i < inNumberFrames*2; i++) {
+			
+			int prevIndex = ((int)pos/2)*2;
+			int nextIndex = prevIndex + 2;
+			
+			output[i] = interpolate(file->buffer[prevIndex], file->buffer[nextIndex], pos);
+			
+			output[i+1] = interpolate(file->buffer[prevIndex+1], file->buffer[nextIndex+1], pos);
+			
+			output[i] = output[i] << 8;
+			output[i+1] = output[i+1] << 8;
+			/*
+			if(audioFile->dragging) {
+				if(pitch > -.0003 && pitch < .0003) {
+					pitch = 0;
+				} else {
+					if(pitch < 0) pitch+= diff*.0001;
+					if(pitch > 0) pitch-= diff*.0001;
+				}
+			}*/
+			pos += pitch;
+			
+		}
+		audioEngine->previousPitch = pitch;
+	} else if(pos < 0) {
+		pos = 0;
+	} else if(pos > file->fileLength) {
+		pos = file->fileLength-1000;
+		NSLog(@"stop");
 	}
 	
-	for (UInt32 i = 0; i < inNumberFrames*2; i++) output[i] = output[i] << 8;
-
+	
 	return noErr;
 }
-
+void AudioEngine::setDragging(Boolean flag) {
+	dragging = flag;
+}
+void AudioEngine::setPitch(double pitch) {
+	this->pitch = pitch;
+}
 
 void AudioEngine::setSong(AudioFile *file) {
 	audioFile = file;
@@ -89,15 +120,14 @@ void AudioEngine::setBPM(UInt32 mBpm) {
 	else framesPerDivision = realFramesPerDivision - realFramesPerDivision*shuffle;
 	
 }
-
-void AudioEngine::clearPattern() {
-	for(UInt8 t=0;t<8;t++) {
-		for(UInt8 p=0;p<16;p++) {
-			tracks[t]->pattern[p] = false;
-		}
-	}
+void AudioEngine::startAudioEngine() {
+	isPlaying = true;
+	AudioOutputUnitStart(outputUnit);
 }
-
+void AudioEngine::stopAudioEngine() {
+	isPlaying = false;
+	AudioOutputUnitStop(outputUnit);
+}
 AudioEngine::AudioEngine() {
 	
 	tpm = 0;
@@ -112,16 +142,22 @@ AudioEngine::AudioEngine() {
 	
 	cDivPos = 0;
 	
+	// DEFAULT FRAMERATE
+	frameSpeed = 2;
+	
+	// DEFAULT PITCH
+	pitch = 1.0;
+	previousPitch = pitch;
 	/*
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/2",[[NSBundle mainBundle] resourcePath]] UTF8String],"2. Next To Owl Grave Coffin"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/3",[[NSBundle mainBundle] resourcePath]] UTF8String],"3. Coconut Office"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/4",[[NSBundle mainBundle] resourcePath]] UTF8String],"4. Centralia Detour"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/5",[[NSBundle mainBundle] resourcePath]] UTF8String],"5. Gorilla Cage"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/6",[[NSBundle mainBundle] resourcePath]] UTF8String],"6. Thinking Of Space"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/7",[[NSBundle mainBundle] resourcePath]] UTF8String],"7. Etzweiler"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/8",[[NSBundle mainBundle] resourcePath]] UTF8String],"8. Simcoe"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/9",[[NSBundle mainBundle] resourcePath]] UTF8String],"9. MD5VSSHA1"));
-	soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/10",[[NSBundle mainBundle] resourcePath]] UTF8String],"10. Forcast Burndown"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/2",[[NSBundle mainBundle] resourcePath]] UTF8String],"2. Next To Owl Grave Coffin"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/3",[[NSBundle mainBundle] resourcePath]] UTF8String],"3. Coconut Office"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/4",[[NSBundle mainBundle] resourcePath]] UTF8String],"4. Centralia Detour"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/5",[[NSBundle mainBundle] resourcePath]] UTF8String],"5. Gorilla Cage"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/6",[[NSBundle mainBundle] resourcePath]] UTF8String],"6. Thinking Of Space"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/7",[[NSBundle mainBundle] resourcePath]] UTF8String],"7. Etzweiler"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/8",[[NSBundle mainBundle] resourcePath]] UTF8String],"8. Simcoe"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/9",[[NSBundle mainBundle] resourcePath]] UTF8String],"9. MD5VSSHA1"));
+	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/10",[[NSBundle mainBundle] resourcePath]] UTF8String],"10. Forcast Burndown"));
 	 */
 	
 	//soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String],"SomeNerve"));
@@ -132,23 +168,23 @@ AudioEngine::AudioEngine() {
 	const char *path = [[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String];
 	char *fileName = new char[255];
 	
-	sprintf(fileName, "%s%s.wav", path, "Some Nerve");
-
-
+	sprintf(fileName, "%s%s.wav", path, "keys");
+	
+	
 	this->audioFile = new AudioFile(new WavInFile(fileName));
 	NSLog(@"%d", audioFile->fileLength/1024);	
 	/*
-	for (UInt8 i=0; i<8; i++) {
-		sprintf(fileName, "%s%s.wav", [[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String], @"SomeNerve");
-		audioFiles.push_back(new AudioFile(new WavInFile(fileName)));
-	}*/
+	 for (UInt8 i=0; i<8; i++) {
+	 sprintf(fileName, "%s%s.wav", [[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String], @"SomeNerve");
+	 audioFiles.push_back(new AudioFile(new WavInFile(fileName)));
+	 }*/
 	
 	
 	
 	outBuffer = new SInt32[2048];
 	
 	
-	AudioUnit outputUnit;
+	//AudioUnit outputUnit;
 	
 	AudioComponentDescription desc;
 	desc.componentType = kAudioUnitType_Output;
@@ -171,7 +207,4 @@ AudioEngine::AudioEngine() {
 	AudioUnitSetProperty(outputUnit, kAudioUnitProperty_SetRenderCallback, kAudioUnitScope_Input, 0, &output, sizeof(output));
 	AudioUnitInitialize(outputUnit);
 	AudioOutputUnitStart(outputUnit);
-    
-	
-	
 }

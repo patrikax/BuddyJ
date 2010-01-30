@@ -6,6 +6,8 @@
  *  Copyright 2009 Roventskij. All rights reserved.
  *
  */
+#ifndef _AUDIOENGINE_
+#define _AUDIOENGINE_
 
 #include <MacTypes.h>
 
@@ -27,11 +29,6 @@ const Float64 kGraphSampleRate = 44100.0;
 
 class AudioEngine {
 	
-	
-	
-	
-	
-	
 public:
 	
 	UInt32 tpm;
@@ -45,14 +42,23 @@ public:
 	
 	void setBPM(UInt32 mBpm);
 	
-	void clearPattern();
-	
 	UInt8 currentSetIndex;
 	SoundSet *currentSoundSet;
 	
+	double frameSpeed;
+	void setSpeed(double);
+
+	double pitch, previousPitch;
+	void interpolate(double, double);
+
+	void setDragging(Boolean);
+	Boolean dragging;
 	
+	void setPitch(double);
+
 	Boolean isPlaying;
 	
+	AudioUnit outputUnit;
 	
 	float bpm;
 	float framesPerDivision;
@@ -74,6 +80,10 @@ public:
 	void prevSet();
 	void nextSet();
 	void setSong(AudioFile *file);
+	void startAudioEngine();
+	void stopAudioEngine();
 
 	AudioEngine();
 };
+
+#endif

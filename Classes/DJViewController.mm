@@ -9,10 +9,22 @@
 #import "DJViewController.h"
 #import "BuddyJAppDelegate.h"
 
+class AudioEngine;
 @implementation DJViewController
 
+@synthesize pitchView;
+@synthesize jogWheelView;
+
 - (IBAction)playPauseBtnClicked:(id)sender {
-	NSLog(@"tjopp");
+	if(AudioEngine::instance()->isPlaying) {
+		AudioEngine::instance()->stopAudioEngine();
+	} else {
+		AudioEngine::instance()->startAudioEngine();
+	}
+	
+}
+- (IBAction)pitchSliderChanged:(id)sender {
+	//audioEngine->setPitch(pitch);
 }
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -24,13 +36,44 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	audioEngine = AudioEngine::instance(); 
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changePitch) name:@"PitchChanged" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];
     [super viewDidLoad];
 }
-*/
 
+- (void)changePitch {
+	CGFloat pointsMoved = [[self pitchView] pointsMoved];
+	double currentPitch = audioEngine->pitch;
+	if(pointsMoved > 0) {
+		if(currentPitch < 1.08) {
+			audioEngine->setPitch(currentPitch + 0.001);
+			if(audioEngine->pitch < 0) {
+				[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f%", 1.0 - audioEngine->pitch]];
+			} else {
+				[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f%", audioEngine->pitch - 1.0]];
+			}
+		}
+	} else {
+		if(currentPitch > 0.92) {
+			audioEngine->setPitch(currentPitch - 0.001);
+			if(audioEngine->pitch > 0) {
+				[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f%", audioEngine->pitch - 1.0]];
+			} else {
+				[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f%", 1.0 - audioEngine->pitch]];
+			}
+		}
+	}
+
+}
+- (void)changeJogWheel {
+	NSLog(@"changeJogWheel called");
+	audioEngine->setDragging(true);
+}
 /*
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

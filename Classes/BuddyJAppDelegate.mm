@@ -9,7 +9,6 @@
 #import "BuddyJAppDelegate.h"
 #import "TrackHandler.h"
 #import "DJViewController.h"
-#import "AudioEngine.h"
 
 @implementation BuddyJAppDelegate
 
@@ -17,14 +16,16 @@
 @synthesize navigationController;
 @synthesize tabBarController;
 
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     // Add the tab bar controller's current view as a subview of the window
     NSLog(@"%d", [[TrackHandler tracks] count]);
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
-	audioEngine = AudioEngine::instance(); 
+	
 
 }
+
 
 
 /*
