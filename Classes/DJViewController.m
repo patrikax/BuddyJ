@@ -7,7 +7,7 @@
 //
 
 #import "DJViewController.h"
-
+#import "BuddyJAppDelegate.h"
 
 @implementation DJViewController
 
@@ -35,6 +35,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
+
+- (IBAction)showChooseTracks {
+    BuddyJAppDelegate* delegate = (BuddyJAppDelegate*)[[UIApplication sharedApplication] delegate];
+    [delegate showChooseTracks];
+}
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.

@@ -208,6 +208,8 @@
 		<dict>
 			<key>ChosenToolbarItems</key>
 			<array>
+				<string>XCToolbarPerspectiveControl</string>
+				<string>NSToolbarSeparatorItem</string>
 				<string>active-combo-popup</string>
 				<string>action</string>
 				<string>NSToolbarFlexibleSpaceItem</string>
@@ -229,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -254,7 +254,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>256</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -277,14 +277,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>21</integer>
-									<integer>20</integer>
-									<integer>19</integer>
+									<integer>4</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 691}}</string>
+							<string>{{0, 0}, {256, 691}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -296,11 +295,11 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 709}}</string>
+						<string>{{0, 0}, {273, 709}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>256</real>
 						</array>
 						<key>RubberWindowFrame</key>
 						<string>108 128 977 750 0 0 1440 878 </string>
@@ -308,18 +307,20 @@
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>203pt</string>
+					<string>273pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BuddyJAppDelegate.m</string>
+								<string>BuddyJAppDelegate.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,20 +328,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BuddyJAppDelegate.m</string>
+										<string>BuddyJAppDelegate.h</string>
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>FD62BF2711148D49008CC754</string>
+										<string>FD62C03911149DFB008CC754</string>
 										<key>history</key>
 										<array>
 											<string>FD62BE941114811D008CC754</string>
 											<string>FD62BEED11148BFF008CC754</string>
 											<string>FD62BEEE11148BFF008CC754</string>
-											<string>FD62BEF011148BFF008CC754</string>
-											<string>FD62BF0911148CD6008CC754</string>
-											<string>FD62BF0A11148CD6008CC754</string>
-											<string>FD62BF1411148D25008CC754</string>
+											<string>FD62BF571114901F008CC754</string>
+											<string>FD62C01211149CAF008CC754</string>
+											<string>FD62C03711149DFB008CC754</string>
+											<string>FD62C03811149DFB008CC754</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,7 +353,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {769, 515}}</string>
+								<string>{{0, 0}, {699, 515}}</string>
 								<key>RubberWindowFrame</key>
 								<string>108 128 977 750 0 0 1440 878 </string>
 							</dict>
@@ -372,7 +373,7 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 520}, {769, 189}}</string>
+								<string>{{0, 520}, {699, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>108 128 977 750 0 0 1440 878 </string>
 							</dict>
@@ -383,7 +384,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>769pt</string>
+					<string>699pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -538,7 +539,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>FD62BF1611148D25008CC754</string>
+		<string>FD62C03A11149DFB008CC754</string>
 		<string>FD62BF1711148D25008CC754</string>
 		<string>FD62BF1811148D25008CC754</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -564,12 +565,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TrackHandler.h</string>
+								<string>BuddyJAppDelegate.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -586,8 +589,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

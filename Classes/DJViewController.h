@@ -10,7 +10,9 @@
 
 
 @interface DJViewController : UIViewController {
-
+    
 }
+
+- (IBAction)showChooseTracks;
 
 @end

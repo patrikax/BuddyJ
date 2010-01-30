@@ -35,7 +35,7 @@
 		FD62BE801114809A008CC754 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FD62BEE411148B94008CC754 /* DJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJViewController.h; sourceTree = "<group>"; };
 		FD62BEE511148B94008CC754 /* DJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJViewController.m; sourceTree = "<group>"; };
-		FD62BEE611148B94008CC754 /* DJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJViewController.xib; sourceTree = "<group>"; };
+		FD62BEE611148B94008CC754 /* DJViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DJViewController.xib; path = Classes/DJViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 				1D3623250D0F684500981E51 /* BuddyJAppDelegate.m */,
 				FD62BEE411148B94008CC754 /* DJViewController.h */,
 				FD62BEE511148B94008CC754 /* DJViewController.m */,
-				FD62BEE611148B94008CC754 /* DJViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -101,6 +100,7 @@
 			children = (
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* BuddyJ-Info.plist */,
+				FD62BEE611148B94008CC754 /* DJViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
