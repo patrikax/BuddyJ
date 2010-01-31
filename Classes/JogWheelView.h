@@ -16,4 +16,5 @@
 
 - (CGFloat)pointsMoved;
 - (CGFloat)diff;
+
 @end

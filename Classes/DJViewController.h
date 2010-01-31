@@ -20,6 +20,7 @@
 	IBOutlet PitchView *pitchView;
 	IBOutlet JogWheelView *jogWheelView;
 	IBOutlet UILabel *pitchLabel;
+
 }
 
 @property (nonatomic, retain) IBOutlet PitchView *pitchView;
@@ -28,5 +29,5 @@
 - (IBAction)playPauseBtnClicked:(id)sender;
 - (IBAction)jogWheelChanged:(id)sender;
 - (IBAction)showChooseTracks;
-
+- (void)updatePitchLabel;
 @end

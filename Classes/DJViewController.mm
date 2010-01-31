@@ -16,6 +16,11 @@ class AudioEngine;
 @synthesize jogWheelView;
 
 - (IBAction)playPauseBtnClicked:(id)sender {
+	if([playPauseBtn isSelected]) {
+		[playPauseBtn setSelected:NO];
+	} else {
+		[playPauseBtn setSelected:YES];
+	}
 	if(AudioEngine::instance()->isPlaying) {
 		AudioEngine::instance()->stopAudioEngine();
 	} else {
@@ -41,44 +46,72 @@ class AudioEngine;
 - (void)viewDidLoad {
 	audioEngine = AudioEngine::instance(); 
 	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changePitch) name:@"PitchChanged" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(increasePitch) name:@"IncreasePitch" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(decreasePitch) name:@"DecreasePitch" object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(stopJogWheel) name:@"StopJogWheel" object:nil];
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(startJogWheel) name:@"StartJogWheel" object:nil];
+
 
     [super viewDidLoad];
 }
 
-- (void)changePitch {
-	CGFloat pointsMoved = [[self pitchView] pointsMoved];
+- (void)increasePitch {
 	double currentPitch = audioEngine->pitch;
-	if(pointsMoved > 0) {
-		if(currentPitch < 1.08) {
-			audioEngine->setPitch(currentPitch + 0.001);
-			if(audioEngine->pitch < 0) {
-				[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f%", 1.0 - audioEngine->pitch]];
-			} else {
-				[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f%", audioEngine->pitch - 1.0]];
-			}
-		}
-	} else {
-		if(currentPitch > 0.92) {
-			audioEngine->setPitch(currentPitch - 0.001);
-			if(audioEngine->pitch > 0) {
-				[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f%", audioEngine->pitch - 1.0]];
-			} else {
-				[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f%", 1.0 - audioEngine->pitch]];
-			}
-		}
+	if(currentPitch < 1.08) {
+		audioEngine->setPitch(currentPitch + 0.001);
 	}
+	[self updatePitchLabel];
+}
+- (void)decreasePitch {
+	double currentPitch = audioEngine->pitch;
+	if(currentPitch > 0.92) {
+		audioEngine->setPitch(currentPitch - 0.001);
+	}
+	[self updatePitchLabel];
+}
+- (void)updatePitchLabel {
+	CGFloat pitch = audioEngine->pitch;
+	if(pitch > 1.0) {
+		[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f %", audioEngine->pitch - 1.0]];
+	} else if(pitch < 1.0) {
+		[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f %", 1.0 - audioEngine->pitch]];
+	} else if(pitch == 1.0) {
+		[pitchLabel setText:[NSString stringWithFormat:@"0.00%"]];
+	}
+}
 
+- (void)startJogWheel {
+	audioEngine->previousPitch = audioEngine->pitch;
 }
 - (void)changeJogWheel {
-	NSLog(@"changeJogWheel called");
+	CGFloat diff = [[self jogWheelView] diff];
 	audioEngine->setDragging(true);
-	CGFloat diff = [[self jogWheelView] pointsMoved];
-	audioEngine->pitch = -diff;
-	audioEngine->diff = fabs(diff);
-	NSLog(@"diff: %f", fabs(diff));
+
+	// JUST PITCH IT
+	if(audioEngine->isPlaying) {
+		audioEngine->pitching = true;
+		if(diff < 0) {
+			[self increasePitch];
+		} else {
+			[self decreasePitch];
+		}
+	} else { // SCRATCH IT BABY
+		audioEngine->step = -diff;
+		audioEngine->diff = fabs(diff);
+	}
+}
+- (void)stopJogWheel {
+	audioEngine->setDragging(false);
+	if(audioEngine->isPlaying) {
+		audioEngine->pitching = false;
+		audioEngine->pitch = audioEngine->previousPitch;
+	} else {
+		audioEngine->step = 0;
+		audioEngine->pitch = audioEngine->previousPitch;
+		audioEngine->diff = 0;
+	}
+	[self updatePitchLabel];
 }
 /*
 // Override to allow orientations other than the default portrait orientation.

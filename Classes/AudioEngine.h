@@ -49,11 +49,14 @@ public:
 	void setSpeed(double);
 
 	double pitch, previousPitch;
+	
 	void interpolate(double, double);
 
 	void setDragging(Boolean);
 	Boolean dragging;
-	float diff;
+	Boolean pitching;
+	double diff;
+	float step, defaultStep;
 	
 	void setPitch(double);
 

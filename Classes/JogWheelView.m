@@ -14,19 +14,22 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	startPoint = [touchLocation locationInView:self];
-	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"StartJogWheel" object:nil];
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	currentPoint = [touchLocation locationInView:self];
 	pointsMoved = startPoint.x - currentPoint.x;
-	diff = pointsMoved * 0.5;
+	diff = pointsMoved * 0.05;
+	pointsMoved = 0;
+	startPoint = currentPoint;
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"JogWheelChanged" object:nil];
 
 }
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	//UITouch *touchLocation = [[event allTouches] anyObject];
 	//endPoint = [touchLocation locationInView:self];
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"StopJogWheel" object:nil];
 }
 - (CGFloat)pointsMoved {
 	return pointsMoved;

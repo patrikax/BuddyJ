@@ -20,7 +20,6 @@
 using namespace std;
 
 double pos=0;
-double fPos = 0;
 UInt32 lastPos = 100;
 
 float interpolate(float value1, float value2, double pos) {
@@ -38,43 +37,47 @@ OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const
 	
 	
 	AudioFile *file = audioEngine->audioFile;
-	if(pos >= 0 && pos < file->fileLength) {
-		
-		double pitch = audioEngine->pitch;
-		for (UInt32 i = 0; i < inNumberFrames*2; i++) {
+	float step = audioEngine->step;
+	for (UInt32 i = 0; i < inNumberFrames*2; i++) {
+		if(pos >= 0 && pos < file->fileLength) {
 			
 			int prevIndex = ((int)pos/2)*2;
 			int nextIndex = prevIndex + 2;
 			
-			
 			// INTERPOLATE TO SMOOTH PITCH
 			output[i] = interpolate(file->buffer[prevIndex], file->buffer[nextIndex], pos);
 			output[i+1] = interpolate(file->buffer[prevIndex+1], file->buffer[nextIndex+1], pos);
-			
 			
 			// INCREASE VOLUME
 			output[i] = output[i] << 8;
 			output[i+1] = output[i+1] << 8;
 			
 			if(audioEngine->dragging) {
-				if(pos > -.0003 && pos < .0003) {
-					pos = 0;
-				} else {
-					if(pos < 0) pos+= audioEngine->diff*.0000001;
-					if(pos > 0) pos-= audioEngine->diff*.0000001;
+				
+				// NOT PLAYING, SHOULD SCRATCH
+				if(!audioEngine->isPlaying) {
+					if(pos > -.0003 && pos < .0003) {
+						step = 0;
+					} else {
+						if(step < 0) step += audioEngine->diff*.0001;
+						if(step > 0) step -= audioEngine->diff*.0001;
+					}
+				} 
+				// PLAYING AND WE SHOULD PITCH
+				else if(audioEngine->pitching) {
+					audioEngine->pitch += audioEngine->diff*0.0001;
 				}
 			}
-			pos += pitch;
+			pos += audioEngine->step * audioEngine->pitch;
 			
+		} else if(pos < 0) {
+			pos = 0;
+		} else if(pos >= file->fileLength) {
+			pos = 0;
+			//pos = 0;
+			NSLog(@"stop");
 		}
-	} else if(pos < 0) {
-		pos = 0;
-	} else if(pos > file->fileLength) {
-		pos = file->fileLength-1000;
-		NSLog(@"stop");
 	}
-	
-	
 	return noErr;
 }
 void AudioEngine::setDragging(Boolean flag) {
@@ -124,11 +127,11 @@ void AudioEngine::setBPM(UInt32 mBpm) {
 }
 void AudioEngine::startAudioEngine() {
 	isPlaying = true;
-	AudioOutputUnitStart(outputUnit);
+	step = 1;
 }
 void AudioEngine::stopAudioEngine() {
 	isPlaying = false;
-	AudioOutputUnitStop(outputUnit);
+	step = 0;
 }
 AudioEngine::AudioEngine() {
 	
@@ -138,6 +141,10 @@ AudioEngine::AudioEngine() {
 	
 	isPlaying = false;
 	
+	dragging = false;
+	
+	pitching = false;
+	
 	setBPM(126);
 	
 	cPosition = 0;
@@ -145,24 +152,12 @@ AudioEngine::AudioEngine() {
 	cDivPos = 0;
 	
 	// DEFAULT FRAMERATE
-	frameSpeed = 2;
+	defaultStep = 1;
+	step = 0;
 	
 	// DEFAULT PITCH
 	pitch = 1.0;
 	previousPitch = pitch;
-	/*
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/2",[[NSBundle mainBundle] resourcePath]] UTF8String],"2. Next To Owl Grave Coffin"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/3",[[NSBundle mainBundle] resourcePath]] UTF8String],"3. Coconut Office"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/4",[[NSBundle mainBundle] resourcePath]] UTF8String],"4. Centralia Detour"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/5",[[NSBundle mainBundle] resourcePath]] UTF8String],"5. Gorilla Cage"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/6",[[NSBundle mainBundle] resourcePath]] UTF8String],"6. Thinking Of Space"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/7",[[NSBundle mainBundle] resourcePath]] UTF8String],"7. Etzweiler"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/8",[[NSBundle mainBundle] resourcePath]] UTF8String],"8. Simcoe"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/9",[[NSBundle mainBundle] resourcePath]] UTF8String],"9. MD5VSSHA1"));
-	 soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/audio/10",[[NSBundle mainBundle] resourcePath]] UTF8String],"10. Forcast Burndown"));
-	 */
-	
-	//soundSets.push_back(new SoundSet([[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String],"SomeNerve"));
 	
 	for(UInt8 i=0;i<2;i++) tracks.push_back(new Track());
 	
