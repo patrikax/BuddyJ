@@ -20,10 +20,11 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     // Add the tab bar controller's current view as a subview of the window
     NSLog(@"%d", [[TrackHandler tracks] count]);
+	[[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
 	
-
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(dismissChooseTracks) name:@"DismissChooseTracks" object:nil];
 }
 
 
@@ -39,7 +40,9 @@
 - (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed {
 }
 */
-
+- (void)dismissChooseTracks {
+	[navigationController popViewControllerAnimated:YES];
+}
 -(void)showChooseTracks {
     //tabBarController = [[ChooseTrackTabBarController alloc] initWithNibName:@"ChooseTrackTabBarController" bundle:nil];
     //NSLog(@"ViewControllers: %d", [[tabBarController viewControllers] count]);

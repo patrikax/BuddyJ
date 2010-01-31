@@ -16,11 +16,7 @@ class AudioEngine;
 @synthesize jogWheelView;
 
 - (IBAction)playPauseBtnClicked:(id)sender {
-	if([playPauseBtn isSelected]) {
-		[playPauseBtn setSelected:NO];
-	} else {
-		[playPauseBtn setSelected:YES];
-	}
+	[playPauseBtn setSelected:![playPauseBtn isSelected]];
 	if(AudioEngine::instance()->isPlaying) {
 		AudioEngine::instance()->stopAudioEngine();
 	} else {
@@ -29,7 +25,20 @@ class AudioEngine;
 	
 }
 - (IBAction)cueBtnClicked:(id)sender {
-	
+	// PLAYING
+	if([playPauseBtn isSelected]) {
+		[playPauseBtn setSelected:NO];
+	}
+	NSLog(@"cue pos %f ", audioEngine->cue);
+	if(audioEngine->isPlaying) {
+		audioEngine->go2cue();
+		audioEngine->stopAudioEngine();
+	} else {
+		audioEngine->setCue();
+	}
+}
+- (IBAction)rewindBtnClicked:(id)sender {
+	audioEngine->rewind();
 }
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -58,24 +67,24 @@ class AudioEngine;
 
 - (void)increasePitch {
 	double currentPitch = audioEngine->pitch;
-	if(currentPitch < 1.08) {
+	if(currentPitch < 1.08 || audioEngine->pitching) {
 		audioEngine->setPitch(currentPitch + 0.001);
 	}
 	[self updatePitchLabel];
 }
 - (void)decreasePitch {
 	double currentPitch = audioEngine->pitch;
-	if(currentPitch > 0.92) {
+	if(currentPitch > 0.92 || audioEngine->pitching) {
 		audioEngine->setPitch(currentPitch - 0.001);
 	}
 	[self updatePitchLabel];
 }
 - (void)updatePitchLabel {
-	CGFloat pitch = audioEngine->pitch;
+	double pitch = audioEngine->pitch;
 	if(pitch > 1.0) {
-		[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f %", audioEngine->pitch - 1.0]];
+		[pitchLabel setText:[NSString stringWithFormat:@"+%1.2f\%", audioEngine->pitch - 1.0]];
 	} else if(pitch < 1.0) {
-		[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f %", 1.0 - audioEngine->pitch]];
+		[pitchLabel setText:[NSString stringWithFormat:@"-%1.2f\%", 1.0 - audioEngine->pitch]];
 	} else if(pitch == 1.0) {
 		[pitchLabel setText:[NSString stringWithFormat:@"0.00%"]];
 	}
@@ -97,6 +106,7 @@ class AudioEngine;
 			[self decreasePitch];
 		}
 	} else { // SCRATCH IT BABY
+		//diff *= 0.5;
 		audioEngine->step = -diff;
 		audioEngine->diff = fabs(diff);
 	}
@@ -106,7 +116,7 @@ class AudioEngine;
 	if(audioEngine->isPlaying) {
 		audioEngine->pitching = false;
 		audioEngine->pitch = audioEngine->previousPitch;
-	} else {
+	} else { // WASN'T RUNNING BEFORE
 		audioEngine->step = 0;
 		audioEngine->pitch = audioEngine->previousPitch;
 		audioEngine->diff = 0;

@@ -12,9 +12,7 @@
 @interface PitchView : UIImageView {
 	CGPoint startPoint, endPoint, currentPoint;
 	CGFloat pointsMoved;
-	UIImageView *upArrow, *downArrow;
+	UIImageView *finger;
 }
-@property (nonatomic, retain) UIImageView *upArrow;
-@property (nonatomic, retain) UIImageView *downArrow;
 - (CGFloat)pointsMoved;
 @end

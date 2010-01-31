@@ -9,6 +9,7 @@
 #ifndef _AUDIOENGINE_
 #define _AUDIOENGINE_
 
+
 #include <MacTypes.h>
 
 #import <AudioToolbox/AudioToolbox.h>
@@ -19,10 +20,10 @@
 
 #include <vector>
 
-class Track;
 class SoundSet;
 class AudioFile;
 class WavInFile;
+class audioData;
 
 const Float64 kGraphSampleRate = 44100.0;
 
@@ -40,7 +41,9 @@ public:
 		return singleton;
 	}
 	
-	void setBPM(UInt32 mBpm);
+	// TEST
+	audioData *audio;
+	
 	
 	UInt8 currentSetIndex;
 	SoundSet *currentSoundSet;
@@ -73,7 +76,6 @@ public:
 	
 	UInt8 cDivPos;
 	
-	std::vector<Track*> tracks;
 	std::vector<SoundSet*> soundSets;
 
 	std::vector<AudioFile *> audioFiles;
@@ -88,9 +90,12 @@ public:
 	void setSong(AudioFile *file);
 	void startAudioEngine();
 	void stopAudioEngine();
-	
+	void rewind();
 	void setCue();
-
+	void go2cue();
+	void startFromDrag();
+	
+	void loadTrack(NSString *);
 	AudioEngine();
 };
 

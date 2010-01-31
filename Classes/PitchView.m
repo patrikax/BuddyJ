@@ -11,31 +11,21 @@
 
 @implementation PitchView
 
-@synthesize upArrow, downArrow;
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	startPoint = [touchLocation locationInView:self];
+	[finger setCenter:startPoint];
+	[finger setHidden:NO];
 	NSLog(@"startPoint x:%f, y: %f", startPoint.x, startPoint.y);
 	
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	currentPoint = [touchLocation locationInView:self];
-	CGPoint moveImagePoint = CGPointMake(self.frame.size.width/2, currentPoint.y);
 	pointsMoved = startPoint.y - currentPoint.y;
-	if(pointsMoved > 0) {
-		moveImagePoint.y += 30.0;
-		[downArrow setHidden:YES];
-		[upArrow setHidden:NO];
-		[upArrow setCenter:moveImagePoint];
-	} else {
-		moveImagePoint.y -= 30.0;
-		[upArrow setHidden:YES];
-		[downArrow setHidden:NO];
-		[downArrow setCenter:moveImagePoint];
-	}
-	if(pointsMoved > 0) {
+	[finger setCenter:currentPoint];
+	[finger setHidden:NO];
+		if(pointsMoved > 0) {
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"IncreasePitch" object:nil];
 	} else {
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"DecreasePitch" object:nil];
@@ -45,8 +35,7 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	endPoint = [touchLocation locationInView:self];
-	[upArrow setHidden:YES];
-	[downArrow setHidden:YES];
+	[finger setHidden:YES];
 }
 - (CGFloat)pointsMoved {
 	return pointsMoved;
@@ -60,21 +49,17 @@
 
 - (void)awakeFromNib {
 	CGRect frame = [self frame];
-	frame.size.height = 45.0;
-	NSLog(@"offset: y: %f, origin.y: %f", frame.size.height, frame.origin.y);
-	upArrow = [[UIImageView alloc] initWithFrame:frame];
-	downArrow = [[UIImageView alloc] initWithFrame:frame];
-	[upArrow setImage:[UIImage imageNamed:@"upArrow.png"]];
-	[downArrow setImage:[UIImage imageNamed:@"downArrow.png"]];
-	[self addSubview:upArrow];
-	[self addSubview:downArrow];
+	frame.size.height = 86.0;
+	frame.size.width = 86.0;
+	finger = [[UIImageView alloc] initWithFrame:frame];
+	[finger setImage:[UIImage imageNamed:@"finger.png"]];
+	[finger setHidden:YES];
+	[self addSubview:finger];
 }
 
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
 }
-
-
+#pragma mark -
 - (void)dealloc {
     [super dealloc];
 }

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface JogWheelView : UIView {
+@interface JogWheelView : UIImageView {
 	CGPoint startPoint, currentPoint;
 	CGFloat pointsMoved, diff;
 }

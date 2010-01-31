@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#include "AudioEngine.h"
 
 @interface TracksListTableViewController : UITableViewController {
     NSArray* tracks;

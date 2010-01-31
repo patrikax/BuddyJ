@@ -34,20 +34,21 @@
 			NSLog(@"AudioFileOpenURL failed: %d", fileUrl);
 		}
 		
-		CFDictionaryRef trackDict = nil;
-		UInt32 piDataSize = sizeof(trackDict);
+		//CFDictionaryRef trackDict = nil;
+		//UInt32 piDataSize = sizeof(trackDict);
 		
-		err = AudioFileGetProperty(fileID, kAudioFilePropertyInfoDictionary, &piDataSize, &trackDict);
+		//err = AudioFileGetProperty(fileID, kAudioFilePropertyInfoDictionary, &piDataSize, &trackDict);
 		if(err != noErr){
 			NSLog(@"AudioFileGetProperty failed for property info dictionary");
 		}
 		
-		NSString * artistString = (NSString *)CFDictionaryGetValue( trackDict, CFSTR( kAFInfoDictionary_Artist ));
-		NSString * songString = (NSString *)CFDictionaryGetValue( trackDict, CFSTR( kAFInfoDictionary_Title));
+		NSLog(@"bice : %@", filePath);
+		//NSString * artistString = (NSString *)CFDictionaryGetValue( trackDict, CFSTR( kAFInfoDictionary_Artist ));
+		//NSString * songString = (NSString *)CFDictionaryGetValue( trackDict, CFSTR( kAFInfoDictionary_Title ));
 		
-		[tracks addObject:[NSDictionary dictionaryWithObjectsAndKeys: artistString, @"artist", songString, @"song", filePath, @"path", nil]];
-		
-		CFRelease(trackDict);
+		//[tracks addObject:[NSDictionary dictionaryWithObjectsAndKeys: artistString, @"artist", songString, @"song", filePath, @"path", nil]];
+		[tracks addObject:[NSDictionary dictionaryWithObjectsAndKeys: file, @"artist", filePath, @"path", nil]];
+		//CFRelease(trackDict);
     }
     return tracks;
 }

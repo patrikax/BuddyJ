@@ -20,7 +20,7 @@
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	currentPoint = [touchLocation locationInView:self];
 	pointsMoved = startPoint.x - currentPoint.x;
-	diff = pointsMoved * 0.05;
+	diff = pointsMoved * 0.5;
 	pointsMoved = 0;
 	startPoint = currentPoint;
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"JogWheelChanged" object:nil];

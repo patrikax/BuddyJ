@@ -12,11 +12,13 @@
 #include <iostream>
 #include <algorithm>
 
-#include "Track.h"
-
-#include "SoundSet.h"
 #include "AudioFile.h"
 #include "WavFile.h"
+
+#include "audioData.h"
+
+#define TEST 0
+
 using namespace std;
 
 double pos=0;
@@ -35,9 +37,57 @@ OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const
 	
 	memset(audioEngine->outBuffer, 0, inNumberFrames*sizeof(SInt32)*2);
 	
-	
-	AudioFile *file = audioEngine->audioFile;
+	if(NULL == audioEngine->audioFile) {
+		NSLog(@"vaaa");
+		return NULL;
+	}
 	float step = audioEngine->step;
+
+	if (TEST) {
+	
+	audioData *audio = audioEngine->audio;
+	NSLog(@"bufferlength %f", audio->bufferLength);
+	for (UInt32 i = 0; i < inNumberFrames*2; i++) {
+		if(pos >= 0 && pos < audio->bufferLength) {
+			
+			int prevIndex = ((int)pos/2)*2;
+			int nextIndex = prevIndex + 2;
+			
+			// INTERPOLATE TO SMOOTH PITCH
+			output[i] = interpolate(audio->bufferData[prevIndex], audio->bufferData[nextIndex], pos);
+			output[i+1] = interpolate(audio->bufferData[prevIndex+1], audio->bufferData[nextIndex+1], pos);
+			
+			// INCREASE VOLUME
+			output[i] = output[i] << 8;
+			output[i+1] = output[i+1] << 8;
+
+			if(audioEngine->dragging) {
+				
+				// NOT PLAYING, SHOULD SCRATCH
+				if(!audioEngine->isPlaying) {
+					if(pos > -.0003 && pos < .0003) {
+						step = 0;
+					} else {
+						if(step < 0) step += audioEngine->diff*.0001;
+						if(step > 0) step -= audioEngine->diff*.0001;
+					}
+				} 
+				// PLAYING AND WE SHOULD PITCH
+				else if(audioEngine->pitching) {
+					audioEngine->pitch += audioEngine->diff*0.0001;
+				}
+			}
+			pos += audioEngine->step * audioEngine->pitch;
+			
+		} else if(pos < 0) {
+			pos = 0;
+		} else if(pos >= audio->bufferLength) {
+			pos = 0;
+			//pos = 0;
+		}
+	}
+	 } else {
+	AudioFile *file = audioEngine->audioFile;
 	for (UInt32 i = 0; i < inNumberFrames*2; i++) {
 		if(pos >= 0 && pos < file->fileLength) {
 			
@@ -59,13 +109,13 @@ OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const
 					if(pos > -.0003 && pos < .0003) {
 						step = 0;
 					} else {
-						if(step < 0) step += audioEngine->diff*.0001;
-						if(step > 0) step -= audioEngine->diff*.0001;
+						if(step < 0) step += audioEngine->diff*.0003;
+						if(step > 0) step -= audioEngine->diff*.0003;
 					}
 				} 
 				// PLAYING AND WE SHOULD PITCH
 				else if(audioEngine->pitching) {
-					audioEngine->pitch += audioEngine->diff*0.0001;
+					audioEngine->pitch += audioEngine->diff;
 				}
 			}
 			pos += audioEngine->step * audioEngine->pitch;
@@ -78,6 +128,7 @@ OSStatus render(void *inRefCon, AudioUnitRenderActionFlags *ioActionFlags, const
 			NSLog(@"stop");
 		}
 	}
+	 }
 	return noErr;
 }
 void AudioEngine::setDragging(Boolean flag) {
@@ -90,41 +141,7 @@ void AudioEngine::setPitch(double pitch) {
 void AudioEngine::setSong(AudioFile *file) {
 	audioFile = file;
 }
-void AudioEngine::loadSet(UInt8 sid) {
-	for(UInt8 i=0;i<=1;i++) {
-		tracks[i]->setAudioFile(soundSets[sid]->files[i]);
-	}
-	currentSetIndex = sid;
-	
-	currentSoundSet = soundSets[sid];
-	
-	[[NSNotificationCenter defaultCenter] postNotificationName:@"didLoadSet" object:NULL];
-	
-}
 
-void AudioEngine::prevSet() {
-	if(currentSetIndex == 0) loadSet(soundSets.size()-1);
-	else loadSet(currentSetIndex-1);
-}
-
-void AudioEngine::nextSet() {
-	if(currentSetIndex == soundSets.size()-1) loadSet(0);
-	else loadSet(currentSetIndex+1);
-}
-
-
-void AudioEngine::setBPM(UInt32 mBpm) {
-	bpm = mBpm;
-	
-	float framesPerBar = 44100.0 * 60.0 / bpm * 4.0;
-	float framesPerBeat = framesPerBar / 4.0;
-	realFramesPerDivision = framesPerBeat / 4.0;
-	//framesPerDivision = realFramesPerDivision;
-	
-	if(cDivPos % 2) framesPerDivision = realFramesPerDivision + realFramesPerDivision*shuffle;
-	else framesPerDivision = realFramesPerDivision - realFramesPerDivision*shuffle;
-	
-}
 void AudioEngine::startAudioEngine() {
 	isPlaying = true;
 	step = 1;
@@ -133,9 +150,24 @@ void AudioEngine::stopAudioEngine() {
 	isPlaying = false;
 	step = 0;
 }
-
+void AudioEngine::rewind() {
+	pos = 0;
+}
 void AudioEngine::setCue() {
 	cue = pos;
+}
+void AudioEngine::go2cue() {
+	pos = cue;
+}
+void AudioEngine::loadTrack(NSString *file) {
+	
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *documentsDirectory = [paths objectAtIndex:0];
+	
+	this->audioFile = new AudioFile(new WavInFile([[documentsDirectory stringByAppendingPathComponent:file] UTF8String]));
+}
+void AudioEngine::startFromDrag() {
+	step = defaultStep;
 }
 AudioEngine::AudioEngine() {
 	
@@ -148,14 +180,15 @@ AudioEngine::AudioEngine() {
 	dragging = false;
 	
 	pitching = false;
-	
-	setBPM(126);
-	
+		
 	cPosition = 0;
 	
 	cDivPos = 0;
 	
 	cue = 0;
+	
+	//audioFile = NULL;
+	this->loadTrack(@"Adrenalinn.wav");
 	
 	// DEFAULT FRAMERATE
 	defaultStep = 1;
@@ -165,29 +198,9 @@ AudioEngine::AudioEngine() {
 	pitch = 1.0;
 	previousPitch = pitch;
 	
-	for(UInt8 i=0;i<2;i++) tracks.push_back(new Track());
-	
-	
-	const char *path = [[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String];
-	char *fileName = new char[255];
-	
-	sprintf(fileName, "%s%s.wav", path, "keys");
-	
-	
-	this->audioFile = new AudioFile(new WavInFile(fileName));
-	NSLog(@"%d", audioFile->fileLength/1024);	
-	/*
-	 for (UInt8 i=0; i<8; i++) {
-	 sprintf(fileName, "%s%s.wav", [[NSString stringWithFormat:@"%@/",[[NSBundle mainBundle] resourcePath]] UTF8String], @"SomeNerve");
-	 audioFiles.push_back(new AudioFile(new WavInFile(fileName)));
-	 }*/
-	
-	
+	//this->audio = new audioData(p);
 	
 	outBuffer = new SInt32[2048];
-	
-	
-	//AudioUnit outputUnit;
 	
 	AudioComponentDescription desc;
 	desc.componentType = kAudioUnitType_Output;

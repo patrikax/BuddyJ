@@ -13,7 +13,7 @@
 #include "AudioEngine.h"
 
 @interface DJViewController : UIViewController {
-	IBOutlet UIButton *playPauseBtn, *cueBtnClicked;
+	IBOutlet UIButton *playPauseBtn, *cueBtn, *rewindBtn;
 	AudioEngine *audioEngine;
 	IBOutlet UISlider *pitchSlider, *jogWheel;
 	CGFloat newSpeed, currentSpeed;
@@ -25,10 +25,9 @@
 
 @property (nonatomic, retain) IBOutlet PitchView *pitchView;
 @property (nonatomic, retain) IBOutlet JogWheelView *jogWheelView;
-- (IBAction)pitchSliderChanged:(id)sender;
 - (IBAction)playPauseBtnClicked:(id)sender;
-- (IBAction)jogWheelChanged:(id)sender;
 - (IBAction)showChooseTracks;
 - (IBAction)cueBtnClicked:(id)sender;
+- (IBAction)rewindBtnClicked:(id)sender;
 - (void)updatePitchLabel;
 @end
