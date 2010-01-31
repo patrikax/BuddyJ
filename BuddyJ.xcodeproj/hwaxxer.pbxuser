@@ -325,6 +325,19 @@
 			73E214A1111523D500EC2AA1 /* PBXTextBookmark */ = 73E214A1111523D500EC2AA1 /* PBXTextBookmark */;
 			73E214A2111523D500EC2AA1 /* PBXTextBookmark */ = 73E214A2111523D500EC2AA1 /* PBXTextBookmark */;
 			73E214A41115240600EC2AA1 /* PBXTextBookmark */ = 73E214A41115240600EC2AA1 /* PBXTextBookmark */;
+			73E214A51115248100EC2AA1 /* PBXTextBookmark */ = 73E214A51115248100EC2AA1 /* PBXTextBookmark */;
+			73E214A61115248100EC2AA1 /* PBXTextBookmark */ = 73E214A61115248100EC2AA1 /* PBXTextBookmark */;
+			73E214A71115248100EC2AA1 /* PBXTextBookmark */ = 73E214A71115248100EC2AA1 /* PBXTextBookmark */;
+			73E214A81115248100EC2AA1 /* PBXTextBookmark */ = 73E214A81115248100EC2AA1 /* PBXTextBookmark */;
+			73E214AF1115251500EC2AA1 /* PBXTextBookmark */ = 73E214AF1115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B01115251500EC2AA1 /* PBXTextBookmark */ = 73E214B01115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B11115251500EC2AA1 /* PBXTextBookmark */ = 73E214B11115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B21115251500EC2AA1 /* PBXTextBookmark */ = 73E214B21115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B31115251500EC2AA1 /* PBXTextBookmark */ = 73E214B31115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B41115251500EC2AA1 /* PBXTextBookmark */ = 73E214B41115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B51115251500EC2AA1 /* PBXTextBookmark */ = 73E214B51115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B61115251500EC2AA1 /* PBXTextBookmark */ = 73E214B61115251500EC2AA1 /* PBXTextBookmark */;
+			73E214B71115251500EC2AA1 /* PBXTextBookmark */ = 73E214B71115251500EC2AA1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 73CD906511149E9900F50F1B /* Source Control */;
 		userBuildSettings = {
@@ -456,16 +469,16 @@
 	};
 	73CD906811149EA500F50F1B /* AudioEngine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1274}}";
-			sepNavSelRange = "{912, 0}";
-			sepNavVisRange = "{641, 549}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1358}}";
+			sepNavSelRange = "{958, 0}";
+			sepNavVisRange = "{670, 499}";
 		};
 	};
 	73CD906911149EA500F50F1B /* AudioEngine.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 2898}}";
-			sepNavSelRange = "{1786, 0}";
-			sepNavVisRange = "{3862, 1098}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 3136}}";
+			sepNavSelRange = "{3369, 0}";
+			sepNavVisRange = "{2647, 772}";
 		};
 	};
 	73CD906A11149EA500F50F1B /* Track.h */ = {
@@ -813,7 +826,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 22";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -823,7 +836,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 64";
 		rLen = 0;
-		rLoc = 2065;
+		rLoc = 2029;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 2147;
@@ -881,7 +894,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 22";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -891,7 +904,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 70";
 		rLen = 0;
-		rLoc = 2208;
+		rLoc = 2172;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 966;
@@ -959,7 +972,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 72";
 		rLen = 0;
-		rLoc = 2208;
+		rLoc = 2172;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 1505;
@@ -1021,7 +1034,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 22";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -1031,7 +1044,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3371;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 2301;
@@ -1061,7 +1074,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 90";
 		rLen = 0;
-		rLoc = 3055;
+		rLoc = 3019;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 2527;
@@ -1091,7 +1104,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 58";
 		rLen = 0;
-		rLoc = 944;
+		rLoc = 958;
 		rType = 0;
 		vrLen = 528;
 		vrLoc = 641;
@@ -1101,7 +1114,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 144";
 		rLen = 0;
-		rLoc = 3539;
+		rLoc = 3595;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 3196;
@@ -1121,7 +1134,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 22";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -1141,7 +1154,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 22";
 		rLen = 0;
-		rLoc = 525;
+		rLoc = 541;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -1151,7 +1164,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 97";
 		rLen = 0;
-		rLoc = 3181;
+		rLoc = 3145;
 		rType = 0;
 		vrLen = 876;
 		vrLoc = 2531;
@@ -1171,7 +1184,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 90";
 		rLen = 0;
-		rLoc = 3055;
+		rLoc = 3019;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 2531;
@@ -1201,7 +1214,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 101";
 		rLen = 0;
-		rLoc = 3343;
+		rLoc = 3307;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 2527;
@@ -1231,7 +1244,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2964;
+		rLoc = 2928;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 2534;
@@ -1251,7 +1264,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 142";
 		rLen = 0;
-		rLoc = 3452;
+		rLoc = 3496;
 		rType = 0;
 		vrLen = 524;
 		vrLoc = 3249;
@@ -1301,7 +1314,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 146";
 		rLen = 0;
-		rLoc = 3454;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 3272;
@@ -1311,7 +1324,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 98";
 		rLen = 0;
-		rLoc = 3242;
+		rLoc = 3206;
 		rType = 0;
 		vrLen = 866;
 		vrLoc = 2527;
@@ -1321,7 +1334,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 146";
 		rLen = 0;
-		rLoc = 3454;
+		rLoc = 3498;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 1339;
@@ -1341,7 +1354,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 3;
@@ -1361,7 +1374,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 3;
@@ -1421,7 +1434,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 88";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 2561;
@@ -1441,7 +1454,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 88";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 2561;
@@ -1479,7 +1492,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 78";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 2254;
@@ -1507,7 +1520,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 88";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 2561;
@@ -1527,7 +1540,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 101";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3306;
 		rType = 0;
 		vrLen = 1006;
 		vrLoc = 2536;
@@ -1547,7 +1560,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 2436;
@@ -1567,7 +1580,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2963;
+		rLoc = 2927;
 		rType = 0;
 		vrLen = 941;
 		vrLoc = 2436;
@@ -1587,7 +1600,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3058;
+		rLoc = 3022;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 2534;
@@ -1607,7 +1620,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 84";
 		rLen = 0;
-		rLoc = 2849;
+		rLoc = 2813;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 2534;
@@ -1627,7 +1640,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 78";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 889;
 		vrLoc = 2254;
@@ -1667,7 +1680,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2893;
+		rLoc = 2857;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2527;
@@ -1677,7 +1690,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2893;
+		rLoc = 2857;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2527;
@@ -1697,7 +1710,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2893;
+		rLoc = 2857;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2527;
@@ -1717,7 +1730,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2916;
+		rLoc = 2880;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2527;
@@ -1747,7 +1760,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2916;
+		rLoc = 2880;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 2527;
@@ -1887,7 +1900,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 2985;
 		rType = 0;
 		vrLen = 835;
 		vrLoc = 2534;
@@ -1917,7 +1930,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 2985;
 		rType = 0;
 		vrLen = 835;
 		vrLoc = 2534;
@@ -2097,7 +2110,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 100";
 		rLen = 0;
-		rLoc = 3232;
+		rLoc = 3196;
 		rType = 0;
 		vrLen = 835;
 		vrLoc = 2534;
@@ -2107,7 +2120,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 100";
 		rLen = 0;
-		rLoc = 3232;
+		rLoc = 3196;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 2534;
@@ -2127,7 +2140,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 100";
 		rLen = 0;
-		rLoc = 3232;
+		rLoc = 3196;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 2534;
@@ -2167,7 +2180,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 100";
 		rLen = 0;
-		rLoc = 3232;
+		rLoc = 3196;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 2561;
@@ -2187,7 +2200,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 842;
 		vrLoc = 2536;
@@ -2197,7 +2210,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 2536;
@@ -2207,7 +2220,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 2536;
@@ -2217,7 +2230,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 2536;
@@ -2257,7 +2270,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 93";
 		rLen = 0;
-		rLoc = 2992;
+		rLoc = 2956;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 2534;
@@ -2267,7 +2280,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 91";
 		rLen = 0;
-		rLoc = 3020;
+		rLoc = 2984;
 		rType = 0;
 		vrLen = 833;
 		vrLoc = 2536;
@@ -2297,7 +2310,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 93";
 		rLen = 0;
-		rLoc = 2992;
+		rLoc = 2956;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 2534;
@@ -2317,7 +2330,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 86";
 		rLen = 0;
-		rLoc = 2881;
+		rLoc = 2845;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 2301;
@@ -2327,7 +2340,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 32";
 		rLen = 0;
-		rLoc = 840;
+		rLoc = 894;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 0;
@@ -2337,7 +2350,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 57";
 		rLen = 0;
-		rLoc = 2036;
+		rLoc = 2000;
 		rType = 0;
 		vrLen = 745;
 		vrLoc = 1782;
@@ -2347,7 +2360,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 57";
 		rLen = 0;
-		rLoc = 2036;
+		rLoc = 2000;
 		rType = 0;
 		vrLen = 745;
 		vrLoc = 1782;
@@ -2357,7 +2370,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 32";
 		rLen = 0;
-		rLoc = 840;
+		rLoc = 894;
 		rType = 0;
 		vrLen = 846;
 		vrLoc = 0;
@@ -2367,7 +2380,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 74";
 		rLen = 0;
-		rLoc = 2614;
+		rLoc = 2578;
 		rType = 0;
 		vrLen = 881;
 		vrLoc = 1782;
@@ -2377,7 +2390,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2813;
+		rLoc = 2777;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 2417;
@@ -2397,7 +2410,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2813;
+		rLoc = 2777;
 		rType = 0;
 		vrLen = 719;
 		vrLoc = 2417;
@@ -2571,7 +2584,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 829;
 		vrLoc = 2413;
@@ -2581,7 +2594,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 2596;
@@ -2601,7 +2614,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 2596;
@@ -2641,7 +2654,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2697;
+		rLoc = 2661;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 2596;
@@ -2661,7 +2674,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 110";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3306;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 2596;
@@ -2701,7 +2714,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 1359;
 		vrLoc = 1238;
@@ -2711,7 +2724,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 110";
 		rLen = 76;
-		rLoc = 3267;
+		rLoc = 3231;
 		rType = 0;
 		vrLen = 908;
 		vrLoc = 1868;
@@ -2741,7 +2754,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 877;
 		vrLoc = 2596;
@@ -2761,7 +2774,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 953;
 		vrLoc = 1920;
@@ -2781,7 +2794,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3263;
+		rLoc = 3227;
 		rType = 0;
 		vrLen = 1357;
 		vrLoc = 1240;
@@ -2801,7 +2814,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 111";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3306;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 2596;
@@ -2811,10 +2824,140 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 114";
 		rLen = 0;
-		rLoc = 3371;
+		rLoc = 3335;
 		rType = 0;
 		vrLen = 865;
 		vrLoc = 2801;
+	};
+	73E214A51115248100EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 33";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 77;
+	};
+	73E214A61115248100EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 32";
+		rLen = 0;
+		rLoc = 894;
+		rType = 0;
+		vrLen = 846;
+		vrLoc = 0;
+	};
+	73E214A71115248100EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 33";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 77;
+	};
+	73E214A81115248100EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 32";
+		rLen = 0;
+		rLoc = 868;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 0;
+	};
+	73E214AF1115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 32";
+		rLen = 0;
+		rLoc = 868;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 3;
+	};
+	73E214B01115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 33";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 77;
+	};
+	73E214B11115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 138";
+		rLen = 0;
+		rLoc = 3369;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 2647;
+	};
+	73E214B21115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 90";
+		rLen = 0;
+		rLoc = 1452;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 945;
+	};
+	73E214B31115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 32";
+		rLen = 0;
+		rLoc = 868;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 3;
+	};
+	73E214B41115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 33";
+		rLen = 0;
+		rLoc = 655;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 77;
+	};
+	73E214B51115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 90";
+		rLen = 0;
+		rLoc = 1452;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 945;
+	};
+	73E214B61115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 138";
+		rLen = 0;
+		rLoc = 3369;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 2647;
+	};
+	73E214B71115251500EC2AA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 61";
+		rLen = 0;
+		rLoc = 958;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 670;
 	};
 	8D1107310486CEB800E47090 /* BuddyJ-Info.plist */ = {
 		uiCtxt = {
@@ -2830,16 +2973,16 @@
 	};
 	FD62BEE411148B94008CC754 /* DJViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 476}}";
-			sepNavSelRange = "{840, 0}";
-			sepNavVisRange = "{0, 846}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 490}}";
+			sepNavSelRange = "{868, 0}";
+			sepNavVisRange = "{3, 897}";
 		};
 	};
 	FD62BEE511148B94008CC754 /* DJViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1974}}";
-			sepNavSelRange = "{3371, 0}";
-			sepNavVisRange = "{2801, 865}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2156}}";
+			sepNavSelRange = "{655, 0}";
+			sepNavVisRange = "{77, 944}";
 		};
 	};
 	FD62C04911149F0E008CC754 /* TracksListTableViewController.h */ = {

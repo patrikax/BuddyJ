@@ -133,6 +133,10 @@ void AudioEngine::stopAudioEngine() {
 	isPlaying = false;
 	step = 0;
 }
+
+void AudioEngine::setCue() {
+	cue = pos;
+}
 AudioEngine::AudioEngine() {
 	
 	tpm = 0;
@@ -150,6 +154,8 @@ AudioEngine::AudioEngine() {
 	cPosition = 0;
 	
 	cDivPos = 0;
+	
+	cue = 0;
 	
 	// DEFAULT FRAMERATE
 	defaultStep = 1;

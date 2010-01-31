@@ -58,6 +58,8 @@ public:
 	double diff;
 	float step, defaultStep;
 	
+	float cue;
+	
 	void setPitch(double);
 
 	Boolean isPlaying;
@@ -86,6 +88,8 @@ public:
 	void setSong(AudioFile *file);
 	void startAudioEngine();
 	void stopAudioEngine();
+	
+	void setCue();
 
 	AudioEngine();
 };

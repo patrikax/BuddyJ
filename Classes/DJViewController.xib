@@ -98,7 +98,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{209, 147}, {102, 308}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="705173190">
+						<object class="NSColor" key="IBUIBackgroundColor" id="191257311">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
 						</object>
@@ -135,7 +135,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="559109453"/>
-						<object class="NSCustomResource" key="IBUISelectedImage" id="592287514">
+						<object class="NSCustomResource" key="IBUISelectedImage" id="974337576">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">pause.png</string>
 						</object>
@@ -144,7 +144,7 @@
 							<string key="NSResourceName">play.png</string>
 						</object>
 					</object>
-					<object class="IBUIButton" id="20790302">
+					<object class="IBUIButton" id="931309205">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{5, 213}, {176, 117}}</string>
@@ -161,7 +161,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="559109453"/>
-						<reference key="IBUISelectedImage" ref="592287514"/>
+						<reference key="IBUISelectedImage" ref="974337576"/>
 						<object class="NSCustomResource" key="IBUINormalImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">cue.png</string>
@@ -170,7 +170,7 @@
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
 				<reference key="NSSuperview"/>
-				<reference key="IBUIBackgroundColor" ref="705173190"/>
+				<reference key="IBUIBackgroundColor" ref="191257311"/>
 				<int key="IBUIContentMode">1</int>
 			</object>
 		</object>
@@ -235,6 +235,23 @@
 					</object>
 					<int key="connectionID">35</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">cueBtnClicked</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="931309205"/>
+					</object>
+					<int key="connectionID">37</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">cueBtnClicked:</string>
+						<reference key="source" ref="931309205"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">1</int>
+					</object>
+					<int key="connectionID">38</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -254,7 +271,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="390669842"/>
 							<reference ref="652984005"/>
-							<reference ref="20790302"/>
+							<reference ref="931309205"/>
 							<reference ref="511591557"/>
 							<reference ref="1068964460"/>
 							<reference ref="754754036"/>
@@ -302,7 +319,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">36</int>
-						<reference key="object" ref="20790302"/>
+						<reference key="object" ref="931309205"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -360,7 +377,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">36</int>
+			<int key="maxID">38</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -372,6 +389,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>cueBtnClicked:</string>
 							<string>jogWheelChanged:</string>
 							<string>pitchSliderChanged:</string>
 							<string>playPauseBtnClicked:</string>
@@ -383,12 +401,14 @@
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
+							<string>id</string>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>cueBtnClicked</string>
 							<string>jogWheel</string>
 							<string>jogWheelView</string>
 							<string>pitchLabel</string>
@@ -398,6 +418,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
 							<string>UISlider</string>
 							<string>JogWheelView</string>
 							<string>UILabel</string>
