@@ -61,6 +61,7 @@ public:
 	double diff;
 	float step, defaultStep;
 	
+	UInt32 fileLength;
 	float cue;
 	
 	void setPitch(double);

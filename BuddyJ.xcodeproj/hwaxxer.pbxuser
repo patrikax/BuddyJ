@@ -410,6 +410,216 @@
 			73918C6F11158819003FFE82 /* PBXTextBookmark */ = 73918C6F11158819003FFE82 /* PBXTextBookmark */;
 			73918C7011158819003FFE82 /* PBXTextBookmark */ = 73918C7011158819003FFE82 /* PBXTextBookmark */;
 			73918C7111158819003FFE82 /* PBXTextBookmark */ = 73918C7111158819003FFE82 /* PBXTextBookmark */;
+			73918C721115885F003FFE82 /* PBXTextBookmark */ = 73918C721115885F003FFE82 /* PBXTextBookmark */;
+			73918C79111588FA003FFE82 /* PBXTextBookmark */ = 73918C79111588FA003FFE82 /* PBXTextBookmark */;
+			73918C7A111588FA003FFE82 /* PBXTextBookmark */ = 73918C7A111588FA003FFE82 /* PBXTextBookmark */;
+			73918C7B111588FA003FFE82 /* PBXTextBookmark */ = 73918C7B111588FA003FFE82 /* PBXTextBookmark */;
+			73918C7C111588FA003FFE82 /* PBXTextBookmark */ = 73918C7C111588FA003FFE82 /* PBXTextBookmark */;
+			73918C7D111588FA003FFE82 /* PBXTextBookmark */ = 73918C7D111588FA003FFE82 /* PBXTextBookmark */;
+			73918C8011158931003FFE82 /* PBXTextBookmark */ = 73918C8011158931003FFE82 /* PBXTextBookmark */;
+			73918C8111158931003FFE82 /* PBXTextBookmark */ = 73918C8111158931003FFE82 /* PBXTextBookmark */;
+			73918C8211158931003FFE82 /* PBXTextBookmark */ = 73918C8211158931003FFE82 /* PBXTextBookmark */;
+			73918C8311158931003FFE82 /* PBXTextBookmark */ = 73918C8311158931003FFE82 /* PBXTextBookmark */;
+			73918C8711158979003FFE82 /* PBXTextBookmark */ = 73918C8711158979003FFE82 /* PBXTextBookmark */;
+			73918C8811158979003FFE82 /* PBXTextBookmark */ = 73918C8811158979003FFE82 /* PBXTextBookmark */;
+			73918C8911158979003FFE82 /* PBXTextBookmark */ = 73918C8911158979003FFE82 /* PBXTextBookmark */;
+			73918C8A11158979003FFE82 /* PBXTextBookmark */ = 73918C8A11158979003FFE82 /* PBXTextBookmark */;
+			73918C8B11158979003FFE82 /* PBXTextBookmark */ = 73918C8B11158979003FFE82 /* PBXTextBookmark */;
+			73918C8D111589A2003FFE82 /* PBXTextBookmark */ = 73918C8D111589A2003FFE82 /* PBXTextBookmark */;
+			73918C9611158F56003FFE82 /* PBXTextBookmark */ = 73918C9611158F56003FFE82 /* PBXTextBookmark */;
+			73918C9711158F56003FFE82 /* PBXTextBookmark */ = 73918C9711158F56003FFE82 /* PBXTextBookmark */;
+			73918C9811158F56003FFE82 /* PBXTextBookmark */ = 73918C9811158F56003FFE82 /* PBXTextBookmark */;
+			73918C9911158F56003FFE82 /* PBXTextBookmark */ = 73918C9911158F56003FFE82 /* PBXTextBookmark */;
+			73918C9A11158F56003FFE82 /* PBXTextBookmark */ = 73918C9A11158F56003FFE82 /* PBXTextBookmark */;
+			73918C9B11158F56003FFE82 /* PBXTextBookmark */ = 73918C9B11158F56003FFE82 /* PBXTextBookmark */;
+			73918C9C11158F56003FFE82 /* PBXTextBookmark */ = 73918C9C11158F56003FFE82 /* PBXTextBookmark */;
+			73918C9D11158F56003FFE82 /* PBXTextBookmark */ = 73918C9D11158F56003FFE82 /* PBXTextBookmark */;
+			73918C9E11158F56003FFE82 /* PBXTextBookmark */ = 73918C9E11158F56003FFE82 /* PBXTextBookmark */;
+			73918C9F11158F56003FFE82 /* PBXTextBookmark */ = 73918C9F11158F56003FFE82 /* PBXTextBookmark */;
+			73918CA011158F56003FFE82 /* PBXTextBookmark */ = 73918CA011158F56003FFE82 /* PBXTextBookmark */;
+			73918CA111158F56003FFE82 /* PBXTextBookmark */ = 73918CA111158F56003FFE82 /* PBXTextBookmark */;
+			73918CA211158F56003FFE82 /* PBXTextBookmark */ = 73918CA211158F56003FFE82 /* PBXTextBookmark */;
+			73918CA311158F56003FFE82 /* PBXTextBookmark */ = 73918CA311158F56003FFE82 /* PBXTextBookmark */;
+			73918CA411158F56003FFE82 /* PBXTextBookmark */ = 73918CA411158F56003FFE82 /* PBXTextBookmark */;
+			73918CA811159058003FFE82 /* PBXTextBookmark */ = 73918CA811159058003FFE82 /* PBXTextBookmark */;
+			73918CAB11159071003FFE82 /* PBXTextBookmark */ = 73918CAB11159071003FFE82 /* PBXTextBookmark */;
+			73918CAE1115908F003FFE82 /* PBXTextBookmark */ = 73918CAE1115908F003FFE82 /* PBXTextBookmark */;
+			73918CB0111590C1003FFE82 /* PBXTextBookmark */ = 73918CB0111590C1003FFE82 /* PBXTextBookmark */;
+			73918CB211159125003FFE82 /* PBXTextBookmark */ = 73918CB211159125003FFE82 /* PBXTextBookmark */;
+			73918CB51115913A003FFE82 /* PBXTextBookmark */ = 73918CB51115913A003FFE82 /* PBXTextBookmark */;
+			73918CB711159178003FFE82 /* PBXTextBookmark */ = 73918CB711159178003FFE82 /* PBXTextBookmark */;
+			73918CBB111591E1003FFE82 /* PBXTextBookmark */ = 73918CBB111591E1003FFE82 /* PBXTextBookmark */;
+			73918CBD11159236003FFE82 /* PBXTextBookmark */ = 73918CBD11159236003FFE82 /* PBXTextBookmark */;
+			73918CBE11159236003FFE82 /* PBXTextBookmark */ = 73918CBE11159236003FFE82 /* PBXTextBookmark */;
+			73918CBF11159236003FFE82 /* PBXTextBookmark */ = 73918CBF11159236003FFE82 /* PBXTextBookmark */;
+			73918CC011159236003FFE82 /* PBXTextBookmark */ = 73918CC011159236003FFE82 /* PBXTextBookmark */;
+			73918CC5111592A9003FFE82 /* PBXTextBookmark */ = 73918CC5111592A9003FFE82 /* PBXTextBookmark */;
+			73918CC6111592A9003FFE82 /* PBXTextBookmark */ = 73918CC6111592A9003FFE82 /* PBXTextBookmark */;
+			73918CC7111592AA003FFE82 /* PBXTextBookmark */ = 73918CC7111592AA003FFE82 /* PBXTextBookmark */;
+			73918CC8111592AA003FFE82 /* PBXTextBookmark */ = 73918CC8111592AA003FFE82 /* PBXTextBookmark */;
+			73918CC9111592AA003FFE82 /* PBXTextBookmark */ = 73918CC9111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCA111592AA003FFE82 /* PBXTextBookmark */ = 73918CCA111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCB111592AA003FFE82 /* PBXTextBookmark */ = 73918CCB111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCC111592AA003FFE82 /* PBXTextBookmark */ = 73918CCC111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCD111592AA003FFE82 /* PBXTextBookmark */ = 73918CCD111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCE111592AA003FFE82 /* PBXTextBookmark */ = 73918CCE111592AA003FFE82 /* PBXTextBookmark */;
+			73918CCF111592AA003FFE82 /* PBXTextBookmark */ = 73918CCF111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD0111592AA003FFE82 /* PBXTextBookmark */ = 73918CD0111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD1111592AA003FFE82 /* PBXTextBookmark */ = 73918CD1111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD2111592AA003FFE82 /* PBXTextBookmark */ = 73918CD2111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD3111592AA003FFE82 /* PBXTextBookmark */ = 73918CD3111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD4111592AA003FFE82 /* PBXTextBookmark */ = 73918CD4111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD5111592AA003FFE82 /* PBXTextBookmark */ = 73918CD5111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD6111592AA003FFE82 /* PBXTextBookmark */ = 73918CD6111592AA003FFE82 /* PBXTextBookmark */;
+			73918CD811159405003FFE82 /* PBXTextBookmark */ = 73918CD811159405003FFE82 /* PBXTextBookmark */;
+			73918CDA1115943B003FFE82 /* PBXTextBookmark */ = 73918CDA1115943B003FFE82 /* PBXTextBookmark */;
+			73918CDB1115943B003FFE82 /* PBXTextBookmark */ = 73918CDB1115943B003FFE82 /* PBXTextBookmark */;
+			73918CDC1115943B003FFE82 /* PBXTextBookmark */ = 73918CDC1115943B003FFE82 /* PBXTextBookmark */;
+			73918CDD1115943B003FFE82 /* PBXTextBookmark */ = 73918CDD1115943B003FFE82 /* PBXTextBookmark */;
+			73918CDE1115943B003FFE82 /* PBXTextBookmark */ = 73918CDE1115943B003FFE82 /* PBXTextBookmark */;
+			73918CE011159467003FFE82 /* PBXTextBookmark */ = 73918CE011159467003FFE82 /* PBXTextBookmark */;
+			73918CE21115949D003FFE82 /* PBXTextBookmark */ = 73918CE21115949D003FFE82 /* PBXTextBookmark */;
+			73918CE4111594B8003FFE82 /* PBXTextBookmark */ = 73918CE4111594B8003FFE82 /* PBXTextBookmark */;
+			73918CE71115954C003FFE82 /* PBXTextBookmark */ = 73918CE71115954C003FFE82 /* PBXTextBookmark */;
+			73918CF911159785003FFE82 /* PBXTextBookmark */ = 73918CF911159785003FFE82 /* PBXTextBookmark */;
+			73918CFA11159785003FFE82 /* PBXTextBookmark */ = 73918CFA11159785003FFE82 /* PBXTextBookmark */;
+			73918CFB11159785003FFE82 /* PBXBookmark */ = 73918CFB11159785003FFE82 /* PBXBookmark */;
+			73918CFC11159785003FFE82 /* PBXTextBookmark */ = 73918CFC11159785003FFE82 /* PBXTextBookmark */;
+			73918CFD11159785003FFE82 /* PBXTextBookmark */ = 73918CFD11159785003FFE82 /* PBXTextBookmark */;
+			73918CFE11159785003FFE82 /* PBXTextBookmark */ = 73918CFE11159785003FFE82 /* PBXTextBookmark */;
+			73918CFF11159785003FFE82 /* PBXTextBookmark */ = 73918CFF11159785003FFE82 /* PBXTextBookmark */;
+			73918D0011159785003FFE82 /* PBXBookmark */ = 73918D0011159785003FFE82 /* PBXBookmark */;
+			73918D0111159785003FFE82 /* PBXTextBookmark */ = 73918D0111159785003FFE82 /* PBXTextBookmark */;
+			73918D06111597D9003FFE82 /* PBXTextBookmark */ = 73918D06111597D9003FFE82 /* PBXTextBookmark */;
+			73918D07111597D9003FFE82 /* PBXTextBookmark */ = 73918D07111597D9003FFE82 /* PBXTextBookmark */;
+			73918D08111597D9003FFE82 /* PBXTextBookmark */ = 73918D08111597D9003FFE82 /* PBXTextBookmark */;
+			73918D09111597D9003FFE82 /* PBXTextBookmark */ = 73918D09111597D9003FFE82 /* PBXTextBookmark */;
+			73918D0D11159819003FFE82 /* PBXTextBookmark */ = 73918D0D11159819003FFE82 /* PBXTextBookmark */;
+			73918D111115993C003FFE82 /* PBXTextBookmark */ = 73918D111115993C003FFE82 /* PBXTextBookmark */;
+			73918D121115993C003FFE82 /* PBXTextBookmark */ = 73918D121115993C003FFE82 /* PBXTextBookmark */;
+			73918D131115993C003FFE82 /* PBXTextBookmark */ = 73918D131115993C003FFE82 /* PBXTextBookmark */;
+			73918D141115993C003FFE82 /* PBXTextBookmark */ = 73918D141115993C003FFE82 /* PBXTextBookmark */;
+			73918D1A111599D0003FFE82 /* PBXBookmark */ = 73918D1A111599D0003FFE82 /* PBXBookmark */;
+			73918D1B111599D0003FFE82 /* PBXTextBookmark */ = 73918D1B111599D0003FFE82 /* PBXTextBookmark */;
+			73918D1C111599D0003FFE82 /* PBXTextBookmark */ = 73918D1C111599D0003FFE82 /* PBXTextBookmark */;
+			73918D1D111599D1003FFE82 /* PBXTextBookmark */ = 73918D1D111599D1003FFE82 /* PBXTextBookmark */;
+			73918D1E111599D1003FFE82 /* PBXBookmark */ = 73918D1E111599D1003FFE82 /* PBXBookmark */;
+			73918D1F111599D1003FFE82 /* PBXTextBookmark */ = 73918D1F111599D1003FFE82 /* PBXTextBookmark */;
+			73918D20111599D1003FFE82 /* PBXTextBookmark */ = 73918D20111599D1003FFE82 /* PBXTextBookmark */;
+			73918D21111599D1003FFE82 /* PBXTextBookmark */ = 73918D21111599D1003FFE82 /* PBXTextBookmark */;
+			73918D22111599D7003FFE82 /* PBXTextBookmark */ = 73918D22111599D7003FFE82 /* PBXTextBookmark */;
+			73918D23111599D7003FFE82 /* PBXTextBookmark */ = 73918D23111599D7003FFE82 /* PBXTextBookmark */;
+			73918D2511159A29003FFE82 /* PBXTextBookmark */ = 73918D2511159A29003FFE82 /* PBXTextBookmark */;
+			73918D3F11159D63003FFE82 /* PBXTextBookmark */ = 73918D3F11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4011159D63003FFE82 /* PBXTextBookmark */ = 73918D4011159D63003FFE82 /* PBXTextBookmark */;
+			73918D4111159D63003FFE82 /* PBXTextBookmark */ = 73918D4111159D63003FFE82 /* PBXTextBookmark */;
+			73918D4211159D63003FFE82 /* PBXTextBookmark */ = 73918D4211159D63003FFE82 /* PBXTextBookmark */;
+			73918D4311159D63003FFE82 /* PBXTextBookmark */ = 73918D4311159D63003FFE82 /* PBXTextBookmark */;
+			73918D4411159D63003FFE82 /* PBXTextBookmark */ = 73918D4411159D63003FFE82 /* PBXTextBookmark */;
+			73918D4511159D63003FFE82 /* PBXTextBookmark */ = 73918D4511159D63003FFE82 /* PBXTextBookmark */;
+			73918D4611159D63003FFE82 /* PBXTextBookmark */ = 73918D4611159D63003FFE82 /* PBXTextBookmark */;
+			73918D4711159D63003FFE82 /* PBXTextBookmark */ = 73918D4711159D63003FFE82 /* PBXTextBookmark */;
+			73918D4811159D63003FFE82 /* PBXTextBookmark */ = 73918D4811159D63003FFE82 /* PBXTextBookmark */;
+			73918D4911159D63003FFE82 /* PBXTextBookmark */ = 73918D4911159D63003FFE82 /* PBXTextBookmark */;
+			73918D4A11159D63003FFE82 /* PBXTextBookmark */ = 73918D4A11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4B11159D63003FFE82 /* PBXTextBookmark */ = 73918D4B11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4C11159D63003FFE82 /* PBXTextBookmark */ = 73918D4C11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4D11159D63003FFE82 /* PBXTextBookmark */ = 73918D4D11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4E11159D63003FFE82 /* PBXTextBookmark */ = 73918D4E11159D63003FFE82 /* PBXTextBookmark */;
+			73918D4F11159D63003FFE82 /* PBXTextBookmark */ = 73918D4F11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5011159D63003FFE82 /* PBXTextBookmark */ = 73918D5011159D63003FFE82 /* PBXTextBookmark */;
+			73918D5111159D63003FFE82 /* PBXTextBookmark */ = 73918D5111159D63003FFE82 /* PBXTextBookmark */;
+			73918D5211159D63003FFE82 /* PBXTextBookmark */ = 73918D5211159D63003FFE82 /* PBXTextBookmark */;
+			73918D5311159D63003FFE82 /* PBXTextBookmark */ = 73918D5311159D63003FFE82 /* PBXTextBookmark */;
+			73918D5411159D63003FFE82 /* PBXTextBookmark */ = 73918D5411159D63003FFE82 /* PBXTextBookmark */;
+			73918D5511159D63003FFE82 /* PBXTextBookmark */ = 73918D5511159D63003FFE82 /* PBXTextBookmark */;
+			73918D5611159D63003FFE82 /* PBXTextBookmark */ = 73918D5611159D63003FFE82 /* PBXTextBookmark */;
+			73918D5711159D63003FFE82 /* PBXTextBookmark */ = 73918D5711159D63003FFE82 /* PBXTextBookmark */;
+			73918D5811159D63003FFE82 /* PBXTextBookmark */ = 73918D5811159D63003FFE82 /* PBXTextBookmark */;
+			73918D5911159D63003FFE82 /* PBXTextBookmark */ = 73918D5911159D63003FFE82 /* PBXTextBookmark */;
+			73918D5A11159D63003FFE82 /* PBXTextBookmark */ = 73918D5A11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5B11159D63003FFE82 /* PBXTextBookmark */ = 73918D5B11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5C11159D63003FFE82 /* PBXTextBookmark */ = 73918D5C11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5D11159D63003FFE82 /* PBXTextBookmark */ = 73918D5D11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5E11159D63003FFE82 /* PBXTextBookmark */ = 73918D5E11159D63003FFE82 /* PBXTextBookmark */;
+			73918D5F11159D63003FFE82 /* PBXTextBookmark */ = 73918D5F11159D63003FFE82 /* PBXTextBookmark */;
+			73918D6011159D63003FFE82 /* PBXTextBookmark */ = 73918D6011159D63003FFE82 /* PBXTextBookmark */;
+			73918D6111159D63003FFE82 /* PBXTextBookmark */ = 73918D6111159D63003FFE82 /* PBXTextBookmark */;
+			73918D6211159D63003FFE82 /* PBXTextBookmark */ = 73918D6211159D63003FFE82 /* PBXTextBookmark */;
+			73918D6311159D63003FFE82 /* PBXTextBookmark */ = 73918D6311159D63003FFE82 /* PBXTextBookmark */;
+			73918D6411159D63003FFE82 /* PBXTextBookmark */ = 73918D6411159D63003FFE82 /* PBXTextBookmark */;
+			73918D6511159D63003FFE82 /* PBXTextBookmark */ = 73918D6511159D63003FFE82 /* PBXTextBookmark */;
+			73918D6611159D63003FFE82 /* PBXTextBookmark */ = 73918D6611159D63003FFE82 /* PBXTextBookmark */;
+			73918D6711159D63003FFE82 /* PBXTextBookmark */ = 73918D6711159D63003FFE82 /* PBXTextBookmark */;
+			73918D6811159D63003FFE82 /* PBXTextBookmark */ = 73918D6811159D63003FFE82 /* PBXTextBookmark */;
+			73918D6911159D63003FFE82 /* PBXTextBookmark */ = 73918D6911159D63003FFE82 /* PBXTextBookmark */;
+			73918D6A11159D63003FFE82 /* PBXTextBookmark */ = 73918D6A11159D63003FFE82 /* PBXTextBookmark */;
+			73918D6B11159D63003FFE82 /* PBXTextBookmark */ = 73918D6B11159D63003FFE82 /* PBXTextBookmark */;
+			73918D6C11159D63003FFE82 /* PBXTextBookmark */ = 73918D6C11159D63003FFE82 /* PBXTextBookmark */;
+			73918D7011159DC9003FFE82 /* PBXTextBookmark */ = 73918D7011159DC9003FFE82 /* PBXTextBookmark */;
+			73918D7711159E3D003FFE82 /* PBXTextBookmark */ = 73918D7711159E3D003FFE82 /* PBXTextBookmark */;
+			73918D7811159E3D003FFE82 /* PBXBookmark */ = 73918D7811159E3D003FFE82 /* PBXBookmark */;
+			73918D7911159E3D003FFE82 /* PBXBookmark */ = 73918D7911159E3D003FFE82 /* PBXBookmark */;
+			73918D7A11159E3D003FFE82 /* PBXTextBookmark */ = 73918D7A11159E3D003FFE82 /* PBXTextBookmark */;
+			73918D7B11159E3D003FFE82 /* PBXTextBookmark */ = 73918D7B11159E3D003FFE82 /* PBXTextBookmark */;
+			73918D7C11159E3D003FFE82 /* PBXBookmark */ = 73918D7C11159E3D003FFE82 /* PBXBookmark */;
+			73918D7D11159E3D003FFE82 /* PBXTextBookmark */ = 73918D7D11159E3D003FFE82 /* PBXTextBookmark */;
+			73918D7E11159E3D003FFE82 /* PBXBookmark */ = 73918D7E11159E3D003FFE82 /* PBXBookmark */;
+			73918D7F11159E3D003FFE82 /* PBXTextBookmark */ = 73918D7F11159E3D003FFE82 /* PBXTextBookmark */;
+			73918D8111159E6B003FFE82 /* PBXTextBookmark */ = 73918D8111159E6B003FFE82 /* PBXTextBookmark */;
+			73918D8211159E6B003FFE82 /* PBXTextBookmark */ = 73918D8211159E6B003FFE82 /* PBXTextBookmark */;
+			73918D8311159E6B003FFE82 /* PBXTextBookmark */ = 73918D8311159E6B003FFE82 /* PBXTextBookmark */;
+			73918D8711159EF7003FFE82 /* PBXTextBookmark */ = 73918D8711159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8811159EF7003FFE82 /* PBXTextBookmark */ = 73918D8811159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8911159EF7003FFE82 /* PBXTextBookmark */ = 73918D8911159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8A11159EF7003FFE82 /* PBXTextBookmark */ = 73918D8A11159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8B11159EF7003FFE82 /* PBXTextBookmark */ = 73918D8B11159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8C11159EF7003FFE82 /* PBXTextBookmark */ = 73918D8C11159EF7003FFE82 /* PBXTextBookmark */;
+			73918D8D11159EF7003FFE82 /* PBXTextBookmark */ = 73918D8D11159EF7003FFE82 /* PBXTextBookmark */;
+			73918D9211159FA3003FFE82 /* PBXTextBookmark */ = 73918D9211159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9311159FA3003FFE82 /* PBXTextBookmark */ = 73918D9311159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9411159FA3003FFE82 /* PBXTextBookmark */ = 73918D9411159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9511159FA3003FFE82 /* PBXTextBookmark */ = 73918D9511159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9611159FA3003FFE82 /* PBXTextBookmark */ = 73918D9611159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9711159FA3003FFE82 /* PBXTextBookmark */ = 73918D9711159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9811159FA3003FFE82 /* PBXTextBookmark */ = 73918D9811159FA3003FFE82 /* PBXTextBookmark */;
+			73918D9911159FA3003FFE82 /* PBXTextBookmark */ = 73918D9911159FA3003FFE82 /* PBXTextBookmark */;
+			73918DD21115A40E003FFE82 /* PBXTextBookmark */ = 73918DD21115A40E003FFE82 /* PBXTextBookmark */;
+			73918DD31115A40E003FFE82 /* PBXBookmark */ = 73918DD31115A40E003FFE82 /* PBXBookmark */;
+			73918DD41115A40E003FFE82 /* PBXTextBookmark */ = 73918DD41115A40E003FFE82 /* PBXTextBookmark */;
+			73918DD51115A40E003FFE82 /* PBXTextBookmark */ = 73918DD51115A40E003FFE82 /* PBXTextBookmark */;
+			73918DD61115A40E003FFE82 /* PBXTextBookmark */ = 73918DD61115A40E003FFE82 /* PBXTextBookmark */;
+			73918DD71115A40E003FFE82 /* PBXBookmark */ = 73918DD71115A40E003FFE82 /* PBXBookmark */;
+			73918DD81115A40E003FFE82 /* PBXTextBookmark */ = 73918DD81115A40E003FFE82 /* PBXTextBookmark */;
+			73918DD91115A40E003FFE82 /* PBXTextBookmark */ = 73918DD91115A40E003FFE82 /* PBXTextBookmark */;
+			73918DDA1115A40E003FFE82 /* PBXTextBookmark */ = 73918DDA1115A40E003FFE82 /* PBXTextBookmark */;
+			73918DDB1115A40E003FFE82 /* PBXTextBookmark */ = 73918DDB1115A40E003FFE82 /* PBXTextBookmark */;
+			73918DE41115A979003FFE82 /* PBXTextBookmark */ = 73918DE41115A979003FFE82 /* PBXTextBookmark */;
+			73918DE51115A979003FFE82 /* PBXTextBookmark */ = 73918DE51115A979003FFE82 /* PBXTextBookmark */;
+			73918DE61115A979003FFE82 /* PBXTextBookmark */ = 73918DE61115A979003FFE82 /* PBXTextBookmark */;
+			73918DE71115A979003FFE82 /* PBXTextBookmark */ = 73918DE71115A979003FFE82 /* PBXTextBookmark */;
+			73918DE81115A979003FFE82 /* PBXTextBookmark */ = 73918DE81115A979003FFE82 /* PBXTextBookmark */;
+			73918DE91115A979003FFE82 /* PBXTextBookmark */ = 73918DE91115A979003FFE82 /* PBXTextBookmark */;
+			73918DEB1115A9AA003FFE82 /* PBXTextBookmark */ = 73918DEB1115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DEC1115A9AA003FFE82 /* PBXTextBookmark */ = 73918DEC1115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DED1115A9AA003FFE82 /* PBXTextBookmark */ = 73918DED1115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DEE1115A9AA003FFE82 /* PBXTextBookmark */ = 73918DEE1115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DEF1115A9AA003FFE82 /* PBXTextBookmark */ = 73918DEF1115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DF01115A9AA003FFE82 /* PBXTextBookmark */ = 73918DF01115A9AA003FFE82 /* PBXTextBookmark */;
+			73918DF21115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF21115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF31115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF31115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF41115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF41115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF51115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF51115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF61115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF61115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF71115A9D9003FFE82 /* PBXTextBookmark */ = 73918DF71115A9D9003FFE82 /* PBXTextBookmark */;
+			73918DF91115AA13003FFE82 /* PBXTextBookmark */ = 73918DF91115AA13003FFE82 /* PBXTextBookmark */;
+			73918DFB1115AA41003FFE82 /* PBXTextBookmark */ = 73918DFB1115AA41003FFE82 /* PBXTextBookmark */;
+			73918DFD1115AAC0003FFE82 /* PBXTextBookmark */ = 73918DFD1115AAC0003FFE82 /* PBXTextBookmark */;
+			73918DFF1115AC1A003FFE82 /* PBXTextBookmark */ = 73918DFF1115AC1A003FFE82 /* PBXTextBookmark */;
+			73918E001115AC1A003FFE82 /* PBXTextBookmark */ = 73918E001115AC1A003FFE82 /* PBXTextBookmark */;
+			73918E011115AC1A003FFE82 /* PBXTextBookmark */ = 73918E011115AC1A003FFE82 /* PBXTextBookmark */;
+			73918E021115AC1A003FFE82 /* PBXTextBookmark */ = 73918E021115AC1A003FFE82 /* PBXTextBookmark */;
+			73918E081115AC45003FFE82 /* PBXTextBookmark */ = 73918E081115AC45003FFE82 /* PBXTextBookmark */;
 			73CD90E51114A62900F50F1B = 73CD90E51114A62900F50F1B /* PBXTextBookmark */;
 			73CD90ED1114A64D00F50F1B = 73CD90ED1114A64D00F50F1B /* PBXTextBookmark */;
 			73CD91391114ACA700F50F1B = 73CD91391114ACA700F50F1B /* PBXTextBookmark */;
@@ -509,9 +719,9 @@
 	};
 	7354301F1114E41300F172D5 /* JogWheelView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 742}}";
-			sepNavSelRange = "{693, 0}";
-			sepNavVisRange = "{147, 1179}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1106}}";
+			sepNavSelRange = "{471, 0}";
+			sepNavVisRange = "{886, 1109}";
 		};
 	};
 	735430361114E47700F172D5 /* PBXTextBookmark */ = {
@@ -539,7 +749,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 44";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1484;
 		rType = 0;
 		vrLen = 887;
 		vrLoc = 686;
@@ -569,7 +779,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 701;
 		vrLoc = 0;
@@ -589,7 +799,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 465;
@@ -599,7 +809,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1011;
 		rType = 0;
 		vrLen = 635;
 		vrLoc = 2064;
@@ -639,7 +849,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 39";
 		rLen = 0;
-		rLoc = 1009;
+		rLoc = 1011;
 		rType = 0;
 		vrLen = 1134;
 		vrLoc = 336;
@@ -649,7 +859,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 200";
 		rLen = 2;
-		rLoc = 4896;
+		rLoc = 5146;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 3867;
@@ -659,10 +869,17 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 211;
+	};
+	739189D1111555B2003FFE82 /* pitchslider.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = pitchslider.png;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/pitchslider.png;
+		sourceTree = "<absolute>";
 	};
 	739189E011155A3C003FFE82 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -697,7 +914,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 3802;
@@ -711,7 +928,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 188";
 		rLen = 0;
-		rLoc = 4516;
+		rLoc = 4798;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 3928;
@@ -729,7 +946,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 44";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1484;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 777;
@@ -759,7 +976,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 44";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1484;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 0;
@@ -779,7 +996,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 44";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1484;
 		rType = 0;
 		vrLen = 550;
 		vrLoc = 1086;
@@ -789,7 +1006,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 3802;
@@ -813,7 +1030,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 227;
@@ -833,7 +1050,7 @@
 		fRef = 73E215F911153C6D00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 44";
 		rLen = 0;
-		rLoc = 1292;
+		rLoc = 1294;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 744;
@@ -861,7 +1078,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 1401;
@@ -881,7 +1098,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 1896;
@@ -891,7 +1108,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 752;
@@ -961,7 +1178,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 186";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 3901;
@@ -971,7 +1188,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 37";
 		rLen = 0;
-		rLoc = 896;
+		rLoc = 898;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 34;
@@ -981,7 +1198,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 638;
 		vrLoc = 3748;
@@ -1001,7 +1218,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 183";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 746;
 		vrLoc = 1372;
@@ -1021,7 +1238,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 180";
 		rLen = 0;
-		rLoc = 4510;
+		rLoc = 4796;
 		rType = 0;
 		vrLen = 1147;
 		vrLoc = 4124;
@@ -1031,7 +1248,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 1401;
@@ -1051,7 +1268,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 1896;
@@ -1061,7 +1278,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 752;
@@ -1171,7 +1388,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1515;
+		rLoc = 1535;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 993;
@@ -1181,7 +1398,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 4200;
+		rLoc = 4488;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 3542;
@@ -1191,7 +1408,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 28";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -1201,7 +1418,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1261,7 +1478,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 152";
 		rLen = 0;
-		rLoc = 4171;
+		rLoc = 4459;
 		rType = 0;
 		vrLen = 398;
 		vrLoc = 3452;
@@ -1271,7 +1488,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1515;
+		rLoc = 1535;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 993;
@@ -1281,7 +1498,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 160";
 		rLen = 0;
-		rLoc = 4200;
+		rLoc = 4488;
 		rType = 0;
 		vrLen = 572;
 		vrLoc = 3642;
@@ -1291,7 +1508,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 1403;
 		vrLoc = 845;
@@ -1301,7 +1518,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 160";
 		rLen = 0;
-		rLoc = 4200;
+		rLoc = 4488;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3642;
@@ -1321,7 +1538,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 4200;
+		rLoc = 4488;
 		rType = 0;
 		vrLen = 548;
 		vrLoc = 3542;
@@ -1371,7 +1588,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1381,7 +1598,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 28";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -1391,7 +1608,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -1489,7 +1706,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 3165;
@@ -1499,7 +1716,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 4200;
+		rLoc = 4488;
 		rType = 0;
 		vrLen = 537;
 		vrLoc = 3553;
@@ -1519,7 +1736,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 3165;
@@ -1599,7 +1816,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 3557;
@@ -1619,7 +1836,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 3583;
@@ -1639,7 +1856,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 3557;
@@ -1679,7 +1896,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 585;
 		vrLoc = 3529;
@@ -1709,7 +1926,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 585;
 		vrLoc = 3529;
@@ -1739,7 +1956,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 3510;
@@ -1759,7 +1976,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 614;
 		vrLoc = 3510;
@@ -1769,7 +1986,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 614;
 		vrLoc = 3510;
@@ -1789,7 +2006,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 130";
 		rLen = 165;
-		rLoc = 3984;
+		rLoc = 4358;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 3198;
@@ -1809,7 +2026,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 614;
 		vrLoc = 3510;
@@ -1829,7 +2046,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 53";
 		rLen = 0;
-		rLoc = 1443;
+		rLoc = 1697;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 3198;
@@ -1849,7 +2066,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 130";
 		rLen = 165;
-		rLoc = 3984;
+		rLoc = 4358;
 		rType = 0;
 		vrLen = 975;
 		vrLoc = 3198;
@@ -1889,7 +2106,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 845;
@@ -1939,7 +2156,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 845;
@@ -2029,7 +2246,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 125;
-		rLoc = 1463;
+		rLoc = 1837;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 847;
@@ -2059,7 +2276,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 0;
-		rLoc = 1484;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1425;
 		vrLoc = 847;
@@ -2069,7 +2286,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 0;
-		rLoc = 1484;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 847;
@@ -2079,7 +2296,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 158";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 656;
 		vrLoc = 3471;
@@ -2089,7 +2306,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 0;
-		rLoc = 1484;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 847;
@@ -2119,7 +2336,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 181";
 		rLen = 0;
-		rLoc = 4399;
+		rLoc = 4685;
 		rType = 0;
 		vrLen = 372;
 		vrLoc = 4021;
@@ -2139,7 +2356,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 0;
-		rLoc = 1484;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 847;
@@ -2159,7 +2376,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 55";
 		rLen = 0;
-		rLoc = 1484;
+		rLoc = 1858;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 847;
@@ -2179,7 +2396,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 731;
 		vrLoc = 2822;
@@ -2189,7 +2406,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 2822;
@@ -2199,7 +2416,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 2822;
@@ -2209,7 +2426,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 2822;
@@ -2229,7 +2446,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 739;
 		vrLoc = 2822;
@@ -2239,7 +2456,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 182";
 		rLen = 0;
-		rLoc = 4370;
+		rLoc = 4658;
 		rType = 0;
 		vrLen = 551;
 		vrLoc = 3716;
@@ -2269,7 +2486,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 2734;
@@ -2289,7 +2506,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 2734;
@@ -2299,7 +2516,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 146;
@@ -2319,7 +2536,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 2734;
@@ -2329,7 +2546,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 2734;
@@ -2339,7 +2556,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 146;
@@ -2359,7 +2576,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 2734;
@@ -2369,7 +2586,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1486;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1015;
@@ -2379,7 +2596,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 164";
 		rLen = 0;
-		rLoc = 4169;
+		rLoc = 4457;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3547;
@@ -2389,7 +2606,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 2734;
@@ -2399,7 +2616,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 107";
 		rLen = 0;
-		rLoc = 3342;
+		rLoc = 3716;
 		rType = 0;
 		vrLen = 789;
 		vrLoc = 2734;
@@ -2409,7 +2626,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1486;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 1015;
@@ -2419,7 +2636,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 164";
 		rLen = 0;
-		rLoc = 4169;
+		rLoc = 4457;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 3547;
@@ -2429,7 +2646,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3378;
 		rType = 0;
 		vrLen = 833;
 		vrLoc = 2644;
@@ -2439,7 +2656,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 116";
 		rLen = 0;
-		rLoc = 3579;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 2822;
@@ -2449,7 +2666,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 164";
 		rLen = 0;
-		rLoc = 4169;
+		rLoc = 4457;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 3558;
@@ -2459,7 +2676,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 116";
 		rLen = 0;
-		rLoc = 3579;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 727;
 		vrLoc = 2822;
@@ -2489,7 +2706,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 116";
 		rLen = 0;
-		rLoc = 3579;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 2761;
@@ -2509,7 +2726,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 2761;
@@ -2519,7 +2736,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 2761;
@@ -2529,7 +2746,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 2761;
@@ -2539,7 +2756,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 146;
@@ -2549,7 +2766,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 2761;
@@ -2559,7 +2776,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 814;
 		vrLoc = 2761;
@@ -2569,7 +2786,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 146;
@@ -2579,7 +2796,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 2761;
@@ -2609,7 +2826,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 296;
@@ -2629,7 +2846,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 296;
@@ -2639,7 +2856,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 146;
@@ -2649,7 +2866,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 176;
@@ -2659,7 +2876,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 176;
@@ -2709,7 +2926,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 147;
@@ -2719,7 +2936,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 142;
@@ -2739,7 +2956,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 147;
@@ -2749,7 +2966,7 @@
 		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
 		name = "PitchView.m: 26";
 		rLen = 0;
-		rLoc = 725;
+		rLoc = 850;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 142;
@@ -2759,7 +2976,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3378;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 2822;
@@ -2769,7 +2986,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3378;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -2789,7 +3006,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 94";
 		rLen = 0;
-		rLoc = 3004;
+		rLoc = 3378;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -2829,7 +3046,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 3004;
@@ -2839,7 +3056,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 3004;
@@ -2849,7 +3066,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 3004;
@@ -2859,7 +3076,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 3004;
@@ -2881,7 +3098,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 163";
 		rLen = 0;
-		rLoc = 4107;
+		rLoc = 4278;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 3623;
@@ -2891,7 +3108,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1486;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 1013;
@@ -2901,7 +3118,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 2821;
@@ -2911,7 +3128,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 157";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 3623;
@@ -2921,7 +3138,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 157";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 3623;
@@ -2931,7 +3148,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 96";
 		rLen = 0;
-		rLoc = 1486;
+		rLoc = 1506;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 1013;
@@ -2941,7 +3158,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 80";
 		rLen = 0;
-		rLoc = 2547;
+		rLoc = 2921;
 		rType = 0;
 		vrLen = 750;
 		vrLoc = 2821;
@@ -2951,7 +3168,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 157";
 		rLen = 0;
-		rLoc = 3988;
+		rLoc = 4228;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 3623;
@@ -2961,7 +3178,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 147;
@@ -2971,7 +3188,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 694;
+		rLoc = 1065;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 147;
@@ -2981,7 +3198,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 694;
+		rLoc = 1065;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 147;
@@ -2991,7 +3208,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1160;
 		vrLoc = 147;
@@ -3001,7 +3218,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 147;
@@ -3021,7 +3238,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 207";
 		rLen = 12;
-		rLoc = 4983;
+		rLoc = 5233;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 3583;
@@ -3031,7 +3248,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 147;
@@ -3041,7 +3258,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 207";
 		rLen = 12;
-		rLoc = 4983;
+		rLoc = 5233;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 3583;
@@ -3101,7 +3318,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 1401;
@@ -3111,7 +3328,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 92";
 		rLen = 0;
-		rLoc = 1429;
+		rLoc = 1449;
 		rType = 0;
 		vrLen = 542;
 		vrLoc = 679;
@@ -3121,7 +3338,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 31";
 		rLen = 0;
-		rLoc = 831;
+		rLoc = 847;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -3161,7 +3378,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 3265;
@@ -3191,7 +3408,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 66";
 		rLen = 0;
-		rLoc = 2096;
+		rLoc = 1967;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 1401;
@@ -3211,7 +3428,7 @@
 		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
 		name = "AudioEngine.h: 92";
 		rLen = 0;
-		rLoc = 1429;
+		rLoc = 1449;
 		rType = 0;
 		vrLen = 542;
 		vrLoc = 679;
@@ -3221,7 +3438,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 31";
 		rLen = 0;
-		rLoc = 831;
+		rLoc = 847;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -3281,7 +3498,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 1002;
 		vrLoc = 3265;
@@ -3291,7 +3508,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 186";
 		rLen = 0;
-		rLoc = 4393;
+		rLoc = 4679;
 		rType = 0;
 		vrLen = 632;
 		vrLoc = 4219;
@@ -3301,7 +3518,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 186";
 		rLen = 0;
-		rLoc = 4393;
+		rLoc = 4679;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 4136;
@@ -3311,7 +3528,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 3265;
@@ -3321,7 +3538,7 @@
 		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
 		name = "AudioEngine.mm: 186";
 		rLen = 0;
-		rLoc = 4393;
+		rLoc = 4679;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 4136;
@@ -3331,7 +3548,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 2895;
@@ -3341,7 +3558,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 2895;
@@ -3351,7 +3568,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 2895;
@@ -3361,7 +3578,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 2895;
@@ -3401,7 +3618,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 2895;
@@ -3421,7 +3638,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 110";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 802;
 		vrLoc = 2828;
@@ -3431,7 +3648,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3279;
+		rLoc = 3653;
 		rType = 0;
 		vrLen = 803;
 		vrLoc = 2828;
@@ -3441,7 +3658,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3269;
+		rLoc = 3643;
 		rType = 0;
 		vrLen = 804;
 		vrLoc = 2828;
@@ -3451,7 +3668,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 109";
 		rLen = 0;
-		rLoc = 3269;
+		rLoc = 3643;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 2828;
@@ -3461,7 +3678,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 87";
 		rLen = 0;
-		rLoc = 2769;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 2238;
@@ -3471,7 +3688,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2652;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 2238;
@@ -3481,7 +3698,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2652;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 2238;
@@ -3541,7 +3758,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 85";
 		rLen = 0;
-		rLoc = 2652;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 933;
 		vrLoc = 2238;
@@ -3561,7 +3778,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 62";
 		rLen = 0;
-		rLoc = 1989;
+		rLoc = 1856;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 1401;
@@ -3581,7 +3798,7 @@
 		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
 		name = "audioData.mm: 87";
 		rLen = 0;
-		rLoc = 2514;
+		rLoc = 2385;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 1002;
@@ -3646,6 +3863,2080 @@
 		vrLen = 663;
 		vrLoc = 0;
 	};
+	73918C721115885F003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 201";
+		rLen = 0;
+		rLoc = 4798;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 4293;
+	};
+	73918C79111588FA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 142;
+	};
+	73918C7A111588FA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 20";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 1180;
+	};
+	73918C7B111588FA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 20";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 1180;
+	};
+	73918C7C111588FA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 142;
+	};
+	73918C7D111588FA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 198";
+		rLen = 0;
+		rLoc = 4685;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 4314;
+	};
+	73918C8011158931003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 195";
+		rLen = 0;
+		rLoc = 4651;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 4298;
+	};
+	73918C8111158931003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 142;
+	};
+	73918C8211158931003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 195";
+		rLen = 0;
+		rLoc = 4651;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 4298;
+	};
+	73918C8311158931003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 23;
+	};
+	73918C8711158979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 22";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918C8811158979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 23;
+	};
+	73918C8911158979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 20";
+		rLen = 0;
+		rLoc = 381;
+		rType = 0;
+		vrLen = 978;
+		vrLoc = 23;
+	};
+	73918C8A11158979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 22";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918C8B11158979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 39";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 1140;
+		vrLoc = 171;
+	};
+	73918C8D111589A2003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 1612;
+	};
+	73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MyAUFilePlayer.h;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/Classes/MyAUFilePlayer.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 468}}";
+			sepNavSelRange = "{159, 38}";
+			sepNavVisRange = "{0, 247}";
+		};
+	};
+	73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = MyAUFilePlayer.mm;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/Classes/MyAUFilePlayer.mm;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {837, 848}}";
+			sepNavSelRange = "{363, 20}";
+			sepNavVisRange = "{153, 557}";
+		};
+	};
+	73918C9611158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 48";
+		rLen = 5;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 929;
+	};
+	73918C9711158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	73918C9811158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918C9911158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 39";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 139;
+	};
+	73918C9A11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 20;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 1714;
+	};
+	73918C9B11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 48";
+		rLen = 5;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 929;
+	};
+	73918C9C11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 39";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 139;
+	};
+	73918C9D11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 22";
+		rLen = 0;
+		rLoc = 360;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918C9E11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 39";
+		rLen = 0;
+		rLoc = 1011;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 139;
+	};
+	73918C9F11158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 48";
+		rLen = 5;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 929;
+	};
+	73918CA011158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	73918CA111158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 48";
+		rLen = 5;
+		rLoc = 1029;
+		rType = 0;
+		vrLen = 974;
+		vrLoc = 929;
+	};
+	73918CA211158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	73918CA311158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CA411158F56003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 70";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 1525;
+	};
+	73918CA811159058003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 80";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 942;
+		vrLoc = 1980;
+	};
+	73918CAB11159071003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 80";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 942;
+		vrLoc = 1980;
+	};
+	73918CAE1115908F003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 80";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 1980;
+	};
+	73918CB0111590C1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 81";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1951;
+	};
+	73918CB211159125003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 80";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 955;
+		vrLoc = 1779;
+	};
+	73918CB51115913A003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 79";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 1779;
+	};
+	73918CB711159178003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 80";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 1018;
+		vrLoc = 1716;
+	};
+	73918CBB111591E1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 69";
+		rLen = 0;
+		rLoc = 1946;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 1680;
+	};
+	73918CBD11159236003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 1403;
+	};
+	73918CBE11159236003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CBF11159236003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 1403;
+	};
+	73918CC011159236003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CC5111592A9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: expected `;' before 'comp'";
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		rLen = 1;
+		rLoc = 19;
+		rType = 1;
+	};
+	73918CC6111592A9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		name = "MyAUFilePlayer.mm: 20";
+		rLen = 20;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 153;
+	};
+	73918CC7111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 11";
+		rLen = 38;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CC8111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 1498;
+	};
+	73918CC9111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 10";
+		rLen = 38;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	73918CCA111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: 'ComponentDescription' was not declared in this scope";
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	73918CCB111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CCC111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 1498;
+	};
+	73918CCD111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 18";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CCE111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	73918CCF111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		name = "MyAUFilePlayer.m: 46";
+		rLen = 0;
+		rLoc = 1246;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 24;
+	};
+	73918CD0111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 10";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 209;
+		vrLoc = 0;
+	};
+	73918CD1111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 11";
+		rLen = 38;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918CD2111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 68";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 1498;
+	};
+	73918CD3111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 10";
+		rLen = 38;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	73918CD4111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		name = "MyAUFilePlayer.mm: 46";
+		rLen = 0;
+		rLoc = 1246;
+		rType = 0;
+		vrLen = 537;
+		vrLoc = 125;
+	};
+	73918CD5111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9011158D8E003FFE82 /* MyAUFilePlayer.h */;
+		name = "MyAUFilePlayer.h: 10";
+		rLen = 38;
+		rLoc = 159;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	73918CD6111592AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73918C9111158D8E003FFE82 /* MyAUFilePlayer.mm */;
+		name = "MyAUFilePlayer.mm: 19";
+		rLen = 31;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 3;
+	};
+	73918CD811159405003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 58";
+		rLen = 0;
+		rLoc = 1813;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 425;
+	};
+	73918CDA1115943B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 58";
+		rLen = 0;
+		rLoc = 1813;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 0;
+	};
+	73918CDB1115943B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 13";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	73918CDC1115943B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 58";
+		rLen = 0;
+		rLoc = 1813;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 0;
+	};
+	73918CDD1115943B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 13";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 503;
+		vrLoc = 0;
+	};
+	73918CDE1115943B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 20";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	73918CE011159467003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 167";
+		rLen = 0;
+		rLoc = 4233;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 3515;
+	};
+	73918CE21115949D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 171";
+		rLen = 0;
+		rLoc = 4289;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 3515;
+	};
+	73918CE4111594B8003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 167";
+		rLen = 0;
+		rLoc = 4228;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 3515;
+	};
+	73918CE71115954C003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 198";
+		rLen = 0;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 4221;
+	};
+	73918CF31115974E003FFE82 /* finger.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = finger.png;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/finger.png;
+		sourceTree = "<absolute>";
+	};
+	73918CF911159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 198";
+		rLen = 0;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 4221;
+	};
+	73918CFA11159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 23";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 147;
+	};
+	73918CFB11159785003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918CF31115974E003FFE82 /* finger.png */;
+	};
+	73918CFC11159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 28";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 170;
+	};
+	73918CFD11159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 198";
+		rLen = 0;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 4221;
+	};
+	73918CFE11159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 23";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 147;
+	};
+	73918CFF11159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 28";
+		rLen = 0;
+		rLoc = 766;
+		rType = 0;
+		vrLen = 1272;
+		vrLoc = 170;
+	};
+	73918D0011159785003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918CF31115974E003FFE82 /* finger.png */;
+	};
+	73918D0111159785003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1260;
+	};
+	73918D06111597D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1260;
+	};
+	73918D07111597D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 198";
+		rLen = 0;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 4221;
+	};
+	73918D08111597D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1260;
+	};
+	73918D09111597D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 169";
+		rLen = 0;
+		rLoc = 4207;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 3687;
+	};
+	73918D0D11159819003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 0;
+		rLoc = 4161;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 3687;
+	};
+	73918D111115993C003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 3687;
+	};
+	73918D121115993C003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 23";
+		rLen = 0;
+		rLoc = 1064;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 147;
+	};
+	73918D131115993C003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 795;
+		vrLoc = 3687;
+	};
+	73918D141115993C003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 28";
+		rLen = 0;
+		rLoc = 942;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 147;
+	};
+	73918D15111599B5003FFE82 /* finger_01.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = finger_01.png;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/finger_01.png;
+		sourceTree = "<absolute>";
+	};
+	73918D1A111599D0003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D15111599B5003FFE82 /* finger_01.png */;
+	};
+	73918D1B111599D0003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 1260;
+	};
+	73918D1C111599D0003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: invalid initializer";
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		rLen = 1;
+		rLoc = 42;
+		rType = 1;
+	};
+	73918D1D111599D1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 46";
+		rLen = 0;
+		rLoc = 1655;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 933;
+	};
+	73918D1E111599D1003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D15111599B5003FFE82 /* finger_01.png */;
+	};
+	73918D1F111599D1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 46";
+		rLen = 0;
+		rLoc = 1655;
+		rType = 0;
+		vrLen = 999;
+		vrLoc = 933;
+	};
+	73918D20111599D1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 1260;
+	};
+	73918D21111599D1003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 40";
+		rLen = 0;
+		rLoc = 1418;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 933;
+	};
+	73918D22111599D7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 40";
+		rLen = 0;
+		rLoc = 1418;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 1144;
+	};
+	73918D23111599D7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 40";
+		rLen = 0;
+		rLoc = 1418;
+		rType = 0;
+		vrLen = 1002;
+		vrLoc = 933;
+	};
+	73918D2511159A29003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 28";
+		rLen = 0;
+		rLoc = 963;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 302;
+	};
+	73918D3F11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 28";
+		rLen = 0;
+		rLoc = 963;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 302;
+	};
+	73918D4011159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 22";
+		rLen = 0;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	73918D4111159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 11";
+		rLen = 38;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918D4211159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 518;
+	};
+	73918D4311159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 58";
+		rLen = 0;
+		rLoc = 1813;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 23;
+	};
+	73918D4411159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D4511159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906C11149EA500F50F1B /* AudioFile.h */;
+		name = "AudioFile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	73918D4611159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 3783;
+	};
+	73918D4711159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1449;
+		vrLoc = 1081;
+	};
+	73918D4811159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 28";
+		rLen = 0;
+		rLoc = 963;
+		rType = 0;
+		vrLen = 1323;
+		vrLoc = 302;
+	};
+	73918D4911159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 22";
+		rLen = 0;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 0;
+	};
+	73918D4A11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1328;
+		rType = 0;
+		vrLen = 1408;
+		vrLoc = 1241;
+	};
+	73918D4B11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 13";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 0;
+	};
+	73918D4C11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 11";
+		rLen = 38;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918D4D11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 1291;
+	};
+	73918D4E11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1328;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 1241;
+	};
+	73918D4F11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 13";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 518;
+	};
+	73918D5011159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 1001;
+		vrLoc = 719;
+	};
+	73918D5111159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1328;
+		rType = 0;
+		vrLen = 1321;
+		vrLoc = 807;
+	};
+	73918D5211159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 13";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 159;
+	};
+	73918D5311159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 1854;
+	};
+	73918D5411159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D5511159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1361;
+		rType = 0;
+		vrLen = 1037;
+		vrLoc = 676;
+	};
+	73918D5611159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 56";
+		rLen = 0;
+		rLoc = 810;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 501;
+	};
+	73918D5711159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 4648;
+	};
+	73918D5811159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906C11149EA500F50F1B /* AudioFile.h */;
+		name = "AudioFile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	73918D5911159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D5A11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 55";
+		rLen = 0;
+		rLoc = 810;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 516;
+	};
+	73918D5B11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1329;
+		rType = 0;
+		vrLen = 992;
+		vrLoc = 718;
+	};
+	73918D5C11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 55";
+		rLen = 0;
+		rLoc = 810;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 518;
+	};
+	73918D5D11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E215F811153C6D00EC2AA1 /* audioData.h */;
+		name = "audioData.h: 11";
+		rLen = 38;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 497;
+		vrLoc = 0;
+	};
+	73918D5E11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1347;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 1081;
+	};
+	73918D5F11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 168";
+		rLen = 8;
+		rLoc = 4126;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 3645;
+	};
+	73918D6011159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1361;
+		rType = 0;
+		vrLen = 1448;
+		vrLoc = 1081;
+	};
+	73918D6111159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D6211159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906C11149EA500F50F1B /* AudioFile.h */;
+		name = "AudioFile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	73918D6311159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1449;
+		vrLoc = 1081;
+	};
+	73918D6411159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906C11149EA500F50F1B /* AudioFile.h */;
+		name = "AudioFile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	73918D6511159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D6611159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 176";
+		rLen = 0;
+		rLoc = 4395;
+		rType = 0;
+		vrLen = 789;
+		vrLoc = 3771;
+	};
+	73918D6711159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 518;
+	};
+	73918D6811159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 58";
+		rLen = 0;
+		rLoc = 1813;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 23;
+	};
+	73918D6911159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */;
+		name = "AudioFile.cpp: 24";
+		rLen = 0;
+		rLoc = 358;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	73918D6A11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906C11149EA500F50F1B /* AudioFile.h */;
+		name = "AudioFile.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	73918D6B11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 3783;
+	};
+	73918D6C11159D63003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1361;
+		rType = 0;
+		vrLen = 1505;
+		vrLoc = 1081;
+	};
+	73918D7011159DC9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 59";
+		rLen = 0;
+		rLoc = 1556;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 915;
+	};
+	73918D7711159E3D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 59";
+		rLen = 0;
+		rLoc = 1556;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 915;
+	};
+	73918D7811159E3D003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D7211159DFF003FFE82 /* pitchbar_01.png */;
+	};
+	73918D7911159E3D003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D7411159E36003FFE82 /* finger_02.png */;
+	};
+	73918D7A11159E3D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 1193;
+	};
+	73918D7B11159E3D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 59";
+		rLen = 0;
+		rLoc = 1556;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 915;
+	};
+	73918D7C11159E3D003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D7211159DFF003FFE82 /* pitchbar_01.png */;
+	};
+	73918D7D11159E3D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 57";
+		rLen = 0;
+		rLoc = 1590;
+		rType = 0;
+		vrLen = 727;
+		vrLoc = 1193;
+	};
+	73918D7E11159E3D003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918D7411159E36003FFE82 /* finger_02.png */;
+	};
+	73918D7F11159E3D003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 59";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 1193;
+	};
+	73918D8111159E6B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 59";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 30;
+	};
+	73918D8211159E6B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 59";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1129;
+		vrLoc = 30;
+	};
+	73918D8311159E6B003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 59";
+		rLen = 0;
+		rLoc = 1556;
+		rType = 0;
+		vrLen = 1504;
+		vrLoc = 1081;
+	};
+	73918D8711159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 469;
+	};
+	73918D8811159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 3656;
+	};
+	73918D8911159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 1081;
+	};
+	73918D8A11159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1523;
+		vrLoc = 1081;
+	};
+	73918D8B11159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 469;
+	};
+	73918D8C11159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 3656;
+	};
+	73918D8D11159EF7003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1524;
+		vrLoc = 1081;
+	};
+	73918D9211159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 491;
+	};
+	73918D9311159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 352;
+	};
+	73918D9411159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 2991;
+	};
+	73918D9511159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 1520;
+		vrLoc = 1081;
+	};
+	73918D9611159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906811149EA500F50F1B /* AudioEngine.h */;
+		name = "AudioEngine.h: 64";
+		rLen = 0;
+		rLoc = 974;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 491;
+	};
+	73918D9711159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 352;
+	};
+	73918D9811159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 2991;
+	};
+	73918D9911159FA3003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 23";
+		rLen = 0;
+		rLoc = 673;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 244;
+	};
+	73918DD21115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 36";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 147;
+	};
+	73918DD31115A40E003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918DCF1115A235003FFE82 /* scrub.png */;
+	};
+	73918DD41115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 2975;
+	};
+	73918DD51115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 4618;
+	};
+	73918DD61115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 36";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 147;
+	};
+	73918DD71115A40E003FFE82 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 73918DCF1115A235003FFE82 /* scrub.png */;
+	};
+	73918DD81115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1136;
+		vrLoc = 351;
+	};
+	73918DD91115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 54";
+		rLen = 0;
+		rLoc = 1373;
+		rType = 0;
+		vrLen = 894;
+		vrLoc = 2975;
+	};
+	73918DDA1115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 4618;
+	};
+	73918DDB1115A40E003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 27";
+		rLen = 0;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 34;
+	};
+	73918DE41115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 27";
+		rLen = 0;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 425;
+	};
+	73918DE51115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 17";
+		rLen = 10;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 71;
+	};
+	73918DE61115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 36";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 147;
+	};
+	73918DE71115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73E2165611153DBB00EC2AA1 /* audioData.mm */;
+		name = "audioData.mm: 27";
+		rLen = 0;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 1354;
+		vrLoc = 425;
+	};
+	73918DE81115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 17";
+		rLen = 10;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 71;
+	};
+	73918DE91115A979003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 24";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 33;
+	};
+	73918DEB1115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 19";
+		rLen = 0;
+		rLoc = 403;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 71;
+	};
+	73918DEC1115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 24";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 33;
+	};
+	73918DED1115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 24";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 33;
+	};
+	73918DEE1115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD92CD1114C56300F50F1B /* PitchView.m */;
+		name = "PitchView.m: 19";
+		rLen = 0;
+		rLoc = 403;
+		rType = 0;
+		vrLen = 1059;
+		vrLoc = 71;
+	};
+	73918DEF1115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 24";
+		rLen = 0;
+		rLoc = 747;
+		rType = 0;
+		vrLen = 1164;
+		vrLoc = 33;
+	};
+	73918DF01115A9AA003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 63";
+		rLen = 0;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 1512;
+		vrLoc = 1375;
+	};
+	73918DF21115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 22";
+		rLen = 0;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	73918DF31115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 63";
+		rLen = 0;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 918;
+	};
+	73918DF41115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 63";
+		rLen = 0;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 1559;
+		vrLoc = 1297;
+	};
+	73918DF51115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
+		name = "DJViewController.h: 22";
+		rLen = 0;
+		rLoc = 562;
+		rType = 0;
+		vrLen = 879;
+		vrLoc = 0;
+	};
+	73918DF61115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
+		name = "DJViewController.mm: 63";
+		rLen = 0;
+		rLoc = 1718;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 918;
+	};
+	73918DF71115A9D9003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 24";
+		rLen = 0;
+		rLoc = 728;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 19;
+	};
+	73918DF91115AA13003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 26";
+		rLen = 0;
+		rLoc = 707;
+		rType = 0;
+		vrLen = 1098;
+		vrLoc = 19;
+	};
+	73918DFB1115AA41003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 33";
+		rLen = 0;
+		rLoc = 993;
+		rType = 0;
+		vrLen = 1193;
+		vrLoc = 120;
+	};
+	73918DFD1115AAC0003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 23";
+		rLen = 0;
+		rLoc = 658;
+		rType = 0;
+		vrLen = 1266;
+		vrLoc = 120;
+	};
+	73918DFF1115AC1A003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 19";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 886;
+	};
+	73918E001115AC1A003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 174";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 4618;
+	};
+	73918E011115AC1A003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
+		name = "JogWheelView.m: 19";
+		rLen = 0;
+		rLoc = 471;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 886;
+	};
+	73918E021115AC1A003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 201";
+		rLen = 0;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 537;
+		vrLoc = 4489;
+	};
+	73918E081115AC45003FFE82 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */;
+		name = "AudioEngine.mm: 202";
+		rLen = 0;
+		rLoc = 4687;
+		rType = 0;
+		vrLen = 537;
+		vrLoc = 4489;
+	};
 	73CD905F11149E8700F50F1B /* BuddyJ */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -3692,22 +5983,22 @@
 	};
 	73CD906811149EA500F50F1B /* AudioEngine.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1428}}";
-			sepNavSelRange = "{183, 0}";
-			sepNavVisRange = "{0, 493}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1456}}";
+			sepNavSelRange = "{974, 0}";
+			sepNavVisRange = "{491, 464}";
 		};
 	};
 	73CD906911149EA500F50F1B /* AudioEngine.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 3080}}";
-			sepNavSelRange = "{291, 0}";
-			sepNavVisRange = "{0, 663}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 3416}}";
+			sepNavSelRange = "{4687, 0}";
+			sepNavVisRange = "{4489, 537}";
 			sepNavWindowFrame = "{{15, 163}, {1208, 610}}";
 		};
 	};
 	73CD906C11149EA500F50F1B /* AudioFile.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {461, 441}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 278}";
 		};
@@ -3913,9 +6204,9 @@
 	};
 	73CD92CD1114C56300F50F1B /* PitchView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 910}}";
-			sepNavSelRange = "{725, 0}";
-			sepNavVisRange = "{142, 1145}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 896}}";
+			sepNavSelRange = "{403, 0}";
+			sepNavVisRange = "{71, 1059}";
 		};
 	};
 	73CD92ED1114C74100F50F1B /* PBXTextBookmark */ = {
@@ -3999,7 +6290,7 @@
 		fRef = 7354301F1114E41300F172D5 /* JogWheelView.m */;
 		name = "JogWheelView.m: 23";
 		rLen = 0;
-		rLoc = 693;
+		rLoc = 1064;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 302;
@@ -4009,7 +6300,7 @@
 		fRef = FD62BEE511148B94008CC754 /* DJViewController.mm */;
 		name = "DJViewController.mm: 106";
 		rLen = 0;
-		rLoc = 3309;
+		rLoc = 3683;
 		rType = 0;
 		vrLen = 636;
 		vrLoc = 3761;
@@ -4017,7 +6308,7 @@
 	73E215F811153C6D00EC2AA1 /* audioData.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
-			sepNavSelRange = "{360, 0}";
+			sepNavSelRange = "{184, 38}";
 			sepNavVisRange = "{0, 497}";
 		};
 	};
@@ -4042,9 +6333,9 @@
 		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/Classes/audioData.mm;
 		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1512}}";
-			sepNavSelRange = "{381, 0}";
-			sepNavVisRange = "{171, 1067}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1386}}";
+			sepNavSelRange = "{687, 0}";
+			sepNavVisRange = "{425, 1354}";
 		};
 	};
 	73E2167F11153E2700EC2AA1 /* PBXTextBookmark */ = {
@@ -4181,7 +6472,7 @@
 		fRef = FD62BEE411148B94008CC754 /* DJViewController.h */;
 		name = "DJViewController.h: 28";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 695;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 0;
@@ -4225,6 +6516,13 @@
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 5549;
+	};
+	73E2197B11154CA800EC2AA1 /* finger.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = finger.png;
+		path = /Users/hwaxxer/Development/iPhone/BuddyJ/BuddyJ/finger.png;
+		sourceTree = "<absolute>";
 	};
 	73E2198411154D2C00EC2AA1 /* PlistBookmark */ = {
 		isa = PlistBookmark;
@@ -4292,15 +6590,15 @@
 	FD62BEE411148B94008CC754 /* DJViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 476}}";
-			sepNavSelRange = "{831, 0}";
-			sepNavVisRange = "{0, 863}";
+			sepNavSelRange = "{562, 0}";
+			sepNavVisRange = "{0, 879}";
 		};
 	};
 	FD62BEE511148B94008CC754 /* DJViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2212}}";
-			sepNavSelRange = "{2652, 0}";
-			sepNavVisRange = "{2238, 933}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2170}}";
+			sepNavSelRange = "{1718, 0}";
+			sepNavVisRange = "{918, 1744}";
 		};
 	};
 	FD62C04911149F0E008CC754 /* TracksListTableViewController.h */ = {

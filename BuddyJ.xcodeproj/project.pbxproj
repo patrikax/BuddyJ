@@ -16,12 +16,13 @@
 		7314DD591114F88F00A69FC8 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314DD551114F88F00A69FC8 /* downArrow.png */; };
 		7314DD5C1114F88F00A69FC8 /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7314DD581114F88F00A69FC8 /* upArrow.png */; };
 		735430201114E41300F172D5 /* JogWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354301F1114E41300F172D5 /* JogWheelView.m */; };
-		739189BA11155354003FFE82 /* 1b-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 739189B911155354003FFE82 /* 1b-1.mp3 */; };
-		739189D4111555B2003FFE82 /* pitchslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 739189D1111555B2003FFE82 /* pitchslider.png */; };
-		739189D5111555B2003FFE82 /* scrub.png in Resources */ = {isa = PBXBuildFile; fileRef = 739189D2111555B2003FFE82 /* scrub.png */; };
 		739189D6111555B2003FFE82 /* stopRewind.png in Resources */ = {isa = PBXBuildFile; fileRef = 739189D3111555B2003FFE82 /* stopRewind.png */; };
 		739189D8111555C3003FFE82 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 739189D7111555C3003FFE82 /* arrow.png */; };
-		73918A251115688B003FFE82 /* airfrance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73918A241115688B003FFE82 /* airfrance.mp3 */; };
+		73918D7311159DFF003FFE82 /* pitchbar_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 73918D7211159DFF003FFE82 /* pitchbar_01.png */; };
+		73918D7511159E36003FFE82 /* finger_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 73918D7411159E36003FFE82 /* finger_02.png */; };
+		73918DD01115A235003FFE82 /* scrub.png in Resources */ = {isa = PBXBuildFile; fileRef = 73918DCF1115A235003FFE82 /* scrub.png */; };
+		73918E041115AC28003FFE82 /* time.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73918E031115AC28003FFE82 /* time.wav */; };
+		73918E061115AC3D003FFE82 /* callisto.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73918E051115AC3D003FFE82 /* callisto.wav */; };
 		73CD907011149EA500F50F1B /* AudioEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73CD906911149EA500F50F1B /* AudioEngine.mm */; };
 		73CD907211149EA500F50F1B /* AudioFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73CD906D11149EA500F50F1B /* AudioFile.cpp */; };
 		73CD908311149EBA00F50F1B /* WavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73CD907411149EBA00F50F1B /* WavFile.cpp */; };
@@ -36,7 +37,6 @@
 		73E214901115221500EC2AA1 /* cue.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E2148F1115221500EC2AA1 /* cue.png */; };
 		73E215FC11153C6D00EC2AA1 /* audioData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73E215F911153C6D00EC2AA1 /* audioData.mm */; };
 		73E2195011154B6B00EC2AA1 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73E2194F11154B6B00EC2AA1 /* Entitlements.plist */; };
-		73E2197C11154CA800EC2AA1 /* finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E2197B11154CA800EC2AA1 /* finger.png */; };
 		FD62BE6011147CA6008CC754 /* TrackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62BE5F11147CA6008CC754 /* TrackHandler.m */; };
 		FD62BE811114809A008CC754 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62BE801114809A008CC754 /* AudioToolbox.framework */; };
 		FD62BEE711148B94008CC754 /* DJViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FD62BEE511148B94008CC754 /* DJViewController.mm */; };
@@ -58,12 +58,13 @@
 		7314DD581114F88F00A69FC8 /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrow.png; sourceTree = "<group>"; };
 		7354301E1114E41300F172D5 /* JogWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JogWheelView.h; sourceTree = "<group>"; };
 		7354301F1114E41300F172D5 /* JogWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogWheelView.m; sourceTree = "<group>"; };
-		739189B911155354003FFE82 /* 1b-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1b-1.mp3"; sourceTree = "<group>"; };
-		739189D1111555B2003FFE82 /* pitchslider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitchslider.png; sourceTree = "<group>"; };
-		739189D2111555B2003FFE82 /* scrub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrub.png; sourceTree = "<group>"; };
 		739189D3111555B2003FFE82 /* stopRewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopRewind.png; sourceTree = "<group>"; };
 		739189D7111555C3003FFE82 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
-		73918A241115688B003FFE82 /* airfrance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = airfrance.mp3; sourceTree = "<group>"; };
+		73918D7211159DFF003FFE82 /* pitchbar_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pitchbar_01.png; sourceTree = "<group>"; };
+		73918D7411159E36003FFE82 /* finger_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger_02.png; sourceTree = "<group>"; };
+		73918DCF1115A235003FFE82 /* scrub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrub.png; sourceTree = "<group>"; };
+		73918E031115AC28003FFE82 /* time.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = time.wav; sourceTree = "<group>"; };
+		73918E051115AC3D003FFE82 /* callisto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = callisto.wav; sourceTree = "<group>"; };
 		73CD906811149EA500F50F1B /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
 		73CD906911149EA500F50F1B /* AudioEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioEngine.mm; sourceTree = "<group>"; };
 		73CD906C11149EA500F50F1B /* AudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFile.h; sourceTree = "<group>"; };
@@ -88,7 +89,6 @@
 		73E215F911153C6D00EC2AA1 /* audioData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = audioData.mm; sourceTree = "<group>"; };
 		73E2169111153E6500EC2AA1 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
 		73E2194F11154B6B00EC2AA1 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		73E2197B11154CA800EC2AA1 /* finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = finger.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BuddyJ-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BuddyJ-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		FD62BE5E11147CA6008CC754 /* TrackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackHandler.h; sourceTree = "<group>"; };
 		FD62BE5F11147CA6008CC754 /* TrackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackHandler.m; sourceTree = "<group>"; };
@@ -175,13 +175,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				73918A241115688B003FFE82 /* airfrance.mp3 */,
+				73918E051115AC3D003FFE82 /* callisto.wav */,
+				73918E031115AC28003FFE82 /* time.wav */,
+				73918DCF1115A235003FFE82 /* scrub.png */,
+				73918D7411159E36003FFE82 /* finger_02.png */,
+				73918D7211159DFF003FFE82 /* pitchbar_01.png */,
 				739189D7111555C3003FFE82 /* arrow.png */,
-				739189D1111555B2003FFE82 /* pitchslider.png */,
-				739189D2111555B2003FFE82 /* scrub.png */,
 				739189D3111555B2003FFE82 /* stopRewind.png */,
-				739189B911155354003FFE82 /* 1b-1.mp3 */,
-				73E2197B11154CA800EC2AA1 /* finger.png */,
 				73E2148F1115221500EC2AA1 /* cue.png */,
 				73E2146511151FF100EC2AA1 /* play.png */,
 				73E2146611151FF100EC2AA1 /* pause.png */,
@@ -284,13 +284,13 @@
 				73E2146811151FF100EC2AA1 /* pause.png in Resources */,
 				73E214901115221500EC2AA1 /* cue.png in Resources */,
 				73E2195011154B6B00EC2AA1 /* Entitlements.plist in Resources */,
-				73E2197C11154CA800EC2AA1 /* finger.png in Resources */,
-				739189BA11155354003FFE82 /* 1b-1.mp3 in Resources */,
-				739189D4111555B2003FFE82 /* pitchslider.png in Resources */,
-				739189D5111555B2003FFE82 /* scrub.png in Resources */,
 				739189D6111555B2003FFE82 /* stopRewind.png in Resources */,
 				739189D8111555C3003FFE82 /* arrow.png in Resources */,
-				73918A251115688B003FFE82 /* airfrance.mp3 in Resources */,
+				73918D7311159DFF003FFE82 /* pitchbar_01.png in Resources */,
+				73918D7511159E36003FFE82 /* finger_02.png in Resources */,
+				73918DD01115A235003FFE82 /* scrub.png in Resources */,
+				73918E041115AC28003FFE82 /* time.wav in Resources */,
+				73918E061115AC3D003FFE82 /* callisto.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

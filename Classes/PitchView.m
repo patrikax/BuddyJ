@@ -16,16 +16,19 @@
 	startPoint = [touchLocation locationInView:self];
 	[finger setCenter:startPoint];
 	[finger setHidden:NO];
-	NSLog(@"startPoint x:%f, y: %f", startPoint.x, startPoint.y);
 	
 }
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	currentPoint = [touchLocation locationInView:self];
 	pointsMoved = startPoint.y - currentPoint.y;
+	[UIView beginAnimations:@"" context:nil];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	[UIView setAnimationDuration:0.1];
+	[UIView setAnimationBeginsFromCurrentState:YES];
 	[finger setCenter:currentPoint];
-	[finger setHidden:NO];
-		if(pointsMoved > 0) {
+	[UIView commitAnimations];
+	if(pointsMoved > 0) {
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"IncreasePitch" object:nil];
 	} else {
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"DecreasePitch" object:nil];
@@ -49,10 +52,10 @@
 
 - (void)awakeFromNib {
 	CGRect frame = [self frame];
-	frame.size.height = 86.0;
-	frame.size.width = 86.0;
+	frame.size.height = 82.0;
+	frame.size.width = 81.0;
 	finger = [[UIImageView alloc] initWithFrame:frame];
-	[finger setImage:[UIImage imageNamed:@"finger.png"]];
+	[finger setImage:[UIImage imageNamed:@"finger_02.png"]];
 	[finger setHidden:YES];
 	[self addSubview:finger];
 }

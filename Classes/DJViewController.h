@@ -19,7 +19,7 @@
 	CGFloat newSpeed, currentSpeed;
 	IBOutlet PitchView *pitchView;
 	IBOutlet JogWheelView *jogWheelView;
-	IBOutlet UILabel *pitchLabel;
+	IBOutlet UILabel *pitchLabel, *timeLeftLabel;
 
 }
 

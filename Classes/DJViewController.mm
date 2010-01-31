@@ -50,11 +50,17 @@ class AudioEngine;
 }
 */
 
-
+- (void)updateTimeLeft {
+	CGFloat fileLength = audioEngine->fileLength;
+	CGFloat pitch = audioEngine->pitch;
+	fileLength /= (44100 * pitch);
+	NSInteger time = (NSInteger)fileLength % 60;
+	[timeLeftLabel setText:[NSString stringWithFormat:@"%d", time]];
+}
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	audioEngine = AudioEngine::instance(); 
-	
+	//[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateTimeLeft) userInfo:nil repeats:YES];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(increasePitch) name:@"IncreasePitch" object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(decreasePitch) name:@"DecreasePitch" object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeJogWheel) name:@"JogWheelChanged" object:nil];

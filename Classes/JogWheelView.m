@@ -19,6 +19,17 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touchLocation = [[event allTouches] anyObject];
 	currentPoint = [touchLocation locationInView:self];
+	CGPoint slideLoc = [self center];
+
+	slideLoc.x = currentPoint.x - startPoint.x;
+	//NSLog(@"sliceLox.x %f", slideLoc.x);
+	/*
+	[UIView beginAnimations:@"" context:nil];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	[UIView setAnimationDuration:0.1];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[self setCenter:slideLoc];
+	[UIView commitAnimations];*/
 	pointsMoved = startPoint.x - currentPoint.x;
 	diff = pointsMoved * 0.5;
 	pointsMoved = 0;
@@ -29,6 +40,15 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	//UITouch *touchLocation = [[event allTouches] anyObject];
 	//endPoint = [touchLocation locationInView:self];
+	CGPoint slideLoc = [self center];
+	slideLoc.x = 160.0;
+	[UIView beginAnimations:@"" context:nil];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+	[UIView setAnimationDuration:0.1];
+	[UIView setAnimationBeginsFromCurrentState:YES];
+	[self setCenter:slideLoc];
+	[UIView commitAnimations];
+	
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"StopJogWheel" object:nil];
 }
 - (CGFloat)pointsMoved {

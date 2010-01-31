@@ -22,8 +22,7 @@ audioData::audioData(NSString* file) {
 	ExtAudioFileRef mAudioFile;
 	err = ExtAudioFileOpenURL(fileRef,&mAudioFile);
 
-		
-	CAStreamBasicDescription clientFormat;
+	AudioStreamBasicDescription clientFormat;
 	UInt32 size = sizeof(clientFormat);
 	err = ExtAudioFileGetProperty(mAudioFile, kExtAudioFileProperty_FileDataFormat, &size, &clientFormat);
 	
@@ -31,12 +30,12 @@ audioData::audioData(NSString* file) {
 	//clientFormat.Print();
 	
 	clientFormat.mSampleRate = kGraphSampleRate;
-	clientFormat.SetCanonical(numChannels, true);
+	//clientFormat.SetCanonical(numChannels, true);
 	
 	size = sizeof(clientFormat);
 	err = ExtAudioFileSetProperty(mAudioFile, kExtAudioFileProperty_ClientDataFormat, size, &clientFormat);
 
-	SInt32 totalAudioFrames;
+	SInt64 totalAudioFrames;
 	size = sizeof(totalAudioFrames);
 	err = ExtAudioFileGetProperty(mAudioFile, kExtAudioFileProperty_FileLengthFrames, &size, &totalAudioFrames);
 
@@ -58,14 +57,12 @@ audioData::audioData(NSString* file) {
 
 	ExtAudioFileDispose(mAudioFile);
 	
-	ExtAudioFileRef newAudioFile;
-	err = ExtAudioFileSetProperty(newAudioFile, kAudioFormatLinearPCM, totalAudioFrames, &clientFormat);
-	
 	channelCount = numChannels;
 	frameLength = totalAudioFrames;
 	bufferLength = totalAudioFrames*numChannels;
 	bufferData = data;
-	constructCache();
+	
+	//constructCache();
 }
 
 audioData::~audioData() {

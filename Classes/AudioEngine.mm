@@ -160,11 +160,21 @@ void AudioEngine::go2cue() {
 	pos = cue;
 }
 void AudioEngine::loadTrack(NSString *file) {
-	
+	/*
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *path = [documentsDirectory stringByAppendingPathComponent:file];*/
 	
-	this->audioFile = new AudioFile(new WavInFile([[documentsDirectory stringByAppendingPathComponent:file] UTF8String]));
+	NSString *path = [NSString stringWithFormat:@"%@/", [[NSBundle mainBundle] resourcePath]];
+	path = [path stringByAppendingString:file];
+	NSLog(@"%@", path);
+	if(TEST) {
+		this->audio = new audioData(path);
+	} else {
+
+		this->audioFile = new AudioFile(new WavInFile([path UTF8String]));
+		fileLength = audioFile->fileLength;
+	}
 }
 void AudioEngine::startFromDrag() {
 	step = defaultStep;
@@ -188,7 +198,7 @@ AudioEngine::AudioEngine() {
 	cue = 0;
 	
 	//audioFile = NULL;
-	this->loadTrack(@"Adrenalinn.wav");
+	this->loadTrack(@"callisto.wav");
 	
 	// DEFAULT FRAMERATE
 	defaultStep = 1;
@@ -197,9 +207,7 @@ AudioEngine::AudioEngine() {
 	// DEFAULT PITCH
 	pitch = 1.0;
 	previousPitch = pitch;
-	
-	//this->audio = new audioData(p);
-	
+		
 	outBuffer = new SInt32[2048];
 	
 	AudioComponentDescription desc;
